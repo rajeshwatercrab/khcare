@@ -1,0 +1,1017 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=10.0,Transition=1)">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/KH_Symbol.png">
+
+    <title>Profile Non-Friends view | Kritical Health App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="js/plugins/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/wc-animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Page Specific -->
+<link rel='stylesheet prefetch' href='js/plugins/cropper/css/cropper.min.css'>
+
+  </head>
+
+   <body id="kh">
+        <div class="main-header">
+            <section id="header">
+                <nav class="navbar navbar-fixed-top kh-navbar">
+                  <div class="container">
+                    <a class="navbar-brand" href="home.html"><img src="img/KH_Symbol.png" alt="Kritical" class="img-responsive"></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                      
+                    </div>
+                    
+                    <!-- Right-side navigation -->
+                    <ul class="nav-right pull-right list-inline mgtop20 top-khnav">
+                        <li class="dropdown notifications">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">5</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInLeft">
+
+                                <div class="panel-heading">
+                                    You have <strong>5</strong> notifications
+                                </div>
+
+                                <ul class="list-group notification-scroll">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">6 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Robert locked account</span>
+                                                <small class="text-muted">18 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">20 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">30 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a role="button" tabindex="0">Show all notifications <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown messages">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">4</span>
+                            </a>
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInDown" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>4</strong> messages
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object thumb thumb-sm">
+                                                <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Imrich sent you a message</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Peter sent you a message</span>
+                                                <small class="text-muted">46 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Bill sent you a message</span>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Ken sent you a message</span>
+                                                <small class="text-muted">3 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="messaging.html" role="button" tabindex="0">Show all messages <i class="pull-right fa fa-angle-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown users">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown">
+                            <span class="badge bg-lightred">2</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInUp" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>2</strong> requests
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a href="network.html" role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                               <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Arnold sent you a request</span>
+                                                <small class="text-muted">15 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">George sent you a request</span>
+                                                <small class="text-muted">5 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="network.html" role="button" tabindex="0">Show all requests <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown nav-profile">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <img src="img/profile-icon-small.png" alt="" class="img-circle size-30x30 nav-profile-icon" >
+                            </a>
+                             <ul class="dropdown-menu animated littleFadeInRight profile-top-menu" role="menu">
+                                <li>
+                                    <a href="profile.html">
+                                        <span class="badge bg-greensea pull-right">86%</span>
+                                        <i class="fa fa-user"></i>Abraham
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="jobs.html">
+                                        <i class="fa fa-briefcase"></i>Job Posting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="settings.html">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="home.html">
+                                        <i class="fa fa-lock"></i>Lock
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Right-side navigation end -->
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav nav-left ">
+                        <li class="active menu"><a class="" href="home.html">Home
+                            <span></span></a></li>
+                        <li class="menu"><a href="network.html">Network
+                        <span></span></a></li>
+                        <li class="menu"><a href="jobs.html">Jobs<span></span></a></li> 
+                        <li class="menu"><a href="company.html">Company<span></span></a></li> 
+                        <li class="menu"><a href="groups-my.html">Groups<span></span></a></li> 
+                        <li class="menu"><a href="#">Appointments<span></span></a></li> 
+                        <li class="menu"><a href="blog-author.html">Blogs<span></span></a></li>
+                         <!--<li class="hidden-sm wc-c"><a href="#">Business</a></li>
+                         <li class="hidden-sm "><a href="#">Premium</a></li>-->
+                        </ul>
+                    </div>
+
+                  </div>
+                </nav>
+            </section>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ad-card visible-sm visible-xs" style="min-height:50px">
+                            <div class="kh-top-search">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 boxer1">
+                        <div id="top-card">
+                            <div class="profile-topcard">
+                                <div class="vcard">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                                            <div class="profile-img-containr">
+                                                <img src="img/avatar-thumb2.png" class="img-responsive profile-img"/>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="profile-overview prof-frnd">
+                                                <h2 class="mgtop15">Abraham Mathew </h2>
+                                                <h4 class="text-aqua">Designation</h4>
+                                                <h5 class="text-red">Speciality</h5>
+                                                <div class="row">
+                                                    <div class="col-sm-10 col-md-11">
+                                                        <p><img src="img/location-icon.png"/>  Bangalore, Karnataka</p>
+                                                    </div>
+                                                    <div class="col-sm-2 col-md-11 pad0">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <p class="bottom-line"></p>
+                                                <div class="row det" style="margin-bottom:0px; margin-top:0px">
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Experience</p>
+                                                        <a href="#">12+</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Followers</p>
+                                                        <a href="#">274</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Following</p>
+                                                        <a href="#">58</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Posts</p>
+                                                        <a href="#">25</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="spacer5"></div>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="profile-card-extras">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-5 col-xs-12">
+                                            
+                                        </div>
+                                        <div class="col-md-7 col-sm-7 col-xs-12">
+                                            
+                                            <button type="submit" class="btn btn-follow mgleft10 mgtop2">CONNECT</button>
+                                            <button type="submit" class="btn btn-red mgleft10 mgtop2">FOLLOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card">
+                            <div class="cd-wrap">
+
+                                <h3>About </h3>
+                                <div class="spacer20"></div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        
+
+                        <div class="panel-group aboutpanel" id="accordion">
+                            <div class="panel ad-card" id="about-experiance">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#experiancecontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                           Experience <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="experiancecontent" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Chief Surgeon
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Amrita Vishwa Vidyapeetham</p>
+                                                        <p>May 2003 - Present ( 12 Years 6 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        <img src="img/hospital-logo.png" class="img-responsive"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <p>Amrita Vishwa Vidyapeetham is a private university in India, spread across South India in the states of Kerala, Tamil Nadu and Karnataka. The university headquarters are at Ettimadai, approximately twenty-two kilometers from Coimbatore City.</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                       
+                                                    </div>
+                                                </div>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer20"></div>
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Senior Surgeon</h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Evershine Hospital</p>
+                                                        <p>April 2000 - May 2013 ( 3 Years 1 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <p style="min-height:24px; width:100%"></p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                      
+                                                    </div>
+                                                </div>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer20"></div>
+                                            <h4 class="text-aqua">Junior Surgeon</h4>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">KIMS Hospital</p>
+                                                    <p>April 1999 - April 2000 ( 1 Years 1 Months )</p>
+                                                    <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-education">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#educontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Education <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="educontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            
+                                            <div class="spacer5"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">Degree</p>
+                                                    <p>Name of School/College</p>
+                                                    <p>2003 - Present</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">Degree</p>
+                                                    <p>Name of School/College</p>
+                                                    <p>2001 - 2003</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-certification">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#certicontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Certifications <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="certicontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">American Board of Internal Medicine</p>
+                                                    <p>Certified in Internal Medicine</p>
+                                                    <p>Active through 2016</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">CA State Medical License</p>
+                                                    <p>Medical License</p>
+                                                    <p>Active through 2017</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">IN State Medical License</p>
+                                                    <p>Medical License</p>
+                                                    <p>Active through 2014</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-honor">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#honourcontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Recognitions <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="honourcontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            
+                                            <h4 class="text-aqua fontsize16 kh-font-bold">Award</h4>
+                                            <div class="prof-awarditem">
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Heading</p>
+                                                        <p>May 15, 2003</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                    </div>
+                                                    <div class="prof-awarditem-gallery col-sm-12 ">
+                                                        <div class="row">
+                                                            <div class="col-xs-4">
+                                                                <img src="img/thumbb.png" class="img-responsive"/>
+                                                            </div>
+                                                            <div class="col-xs-4">
+                                                                <img src="img/thumbb.png" class="img-responsive"/>
+                                                            </div>
+                                                            <div class="col-xs-4">
+                                                                <img src="img/thumbb.png" class="img-responsive"/>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="spacer10"></div>
+
+                                            <h4 class="text-aqua fontsize16 kh-font-bold">Testimonial</h4>
+                                            <div class="prof-awarditem">
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">By Writer's Name</p>
+                                                        <p>January 15, 2008</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                       
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                    </div>
+                                                    <div class="prof-awarditem-gallery col-sm-12 ">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel ad-card" id="about-skill">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#skillcontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Skills & Endorsements <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="skillcontent" class="panel-collapse collapse">
+                                    <div class="panel-body"  id="skills-card" style="margin-top:0px">
+                                        <div class="cd-wrap">
+                                            <h4 class="text-aqua">Top Skills</h4>
+                                            <div class="row">
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="chart" data-percent="86">
+                                                        <p><span>2407</span> Healthcare Management</p>
+                                                    </span>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="charta" data-percent="70">
+                                                        <p><span>1750</span> Medical Education</p>
+                                                    </span>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="chartb" data-percent="60">
+                                                        <p><span>874</span> Aerospace Medicine</p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <div class="spacer20"></div>
+                                                    <button class="btn btn-primary btn-skills">View all skills</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-4 boxer2">
+                        <div class="ad-card">
+                            <div class="cd-wrap-right">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div id="profileview-card">
+                            <div class="cd-wrap-right">
+                                <form method="post" action="#">
+                                    <h3>Profile Strength  
+                                        <div class="ratings pull-right">
+                                        <span class="starRating">
+                                          <input id="rating5" type="radio" name="rating" value="5">
+                                          <label for="rating5">5</label>
+                                          <input id="rating4" type="radio" name="rating" value="4">
+                                          <label for="rating4">4</label>
+                                          <input id="rating3" type="radio" name="rating" value="3" checked>
+                                          <label for="rating3">3</label>
+                                          <input id="rating2" type="radio" name="rating" value="2">
+                                          <label for="rating2">2</label>
+                                          <input id="rating1" type="radio" name="rating" value="1">
+                                          <label for="rating1">1</label>
+                                        </span>
+                                        </div>
+                                    </h3>
+                                </form>
+                                <div class="spacer20"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer20"></div>
+                                <h3>Ads You May Be Interested In</h3>
+                                <div class="spacer20"></div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gmail For Work</p>
+                                        <p>Business Class Email Solution. The Gmail you love- for Work.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gavin Ng Lung Kit</p>
+                                        <p>Reach new heights</p>
+                                        <p>Starting a business? Want to grow your business? Your business stagnates?</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">LinkedIn</p>
+                                        <p>Invitation from LinkedIn</p>
+                                        <p>Place ads on LinkedIn. Acquire new customers for your business. Try it now.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right  pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitch">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card">
+                            <div class="">
+                                <img src="img/ad.png" style="margin:0 auto" class="img-responsive"/>
+
+                            </div>
+                        </div>
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitchs" class="onoffswitch-checkbox" id="myonoffswitchs" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitchs">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-footer full-width">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="home.html"><img src="img/kh_logo.png" alt="Kritical" class="img-responsive"></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="nav navbar-nav pull-right">
+                            <a class="" href="#">About</a> &nbsp; 
+                            <a class="" href="#">Networks</a> &nbsp; 
+                            <a class="" href="groups.html">Groups</a> &nbsp; 
+                            <a class="" href="blog.html">Blogs</a> &nbsp;
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <p class="text-center">
+                            <a class="" href="#">Careers</a> | 
+                            <a class="" href="#">About</a> | 
+                            <a class="" href="#">Cookie Policy</a> | 
+                            <a class="" href="#">Privacy Policy</a> | 
+                            <a class="" href="#">User Agreement</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 text-center">    
+                        <p class="">Kritical Health Corporation © 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+   <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>-->
+    <script src="js/bootstrap.min.js"></script>
+        <!-- SCRIPTS -->
+    <script src="js/plugins/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+
+    <script src="js/bootbox.js"></script>
+    <script src="js/instafilta.min.js"></script>
+    <script>
+        $(document).on("click", ".con-item-remove", function(e) {
+            var a = this;
+            bootbox.confirm("Are you sure you want to remove this photo?", function(result) {
+                if(result == true){
+                    /*var conid = $(a).attr('data-class');
+                    $('.'+conid).slideUp(1000);*/
+                    $(".profile-img").attr("src","img/avatar_male.png");
+                    setTimeout(function(){
+                     location.reload();
+                    }, 4000);
+                }
+            }); 
+        });
+    </script>
+
+    <script>
+        /* Only For Profile Page */
+        $(document).ready(function(){
+            $(".prof-menu .c-icon").click(function(){
+                $("#contact-info-section").slideDown("medium");
+                $('.c-icon').removeClass("active");
+               $(this).addClass("active");
+            });
+            $("#contact-address").click(function(){
+                if($("#contact-address-blk").css('display') == 'none'){
+                    $(this).addClass("active");
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-address-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-message").click(function(){
+                if($("#contact-message-blk").css('display') == 'none'){
+                    $(this).addClass("active");
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-message-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-like").click(function(){
+                if($("#contact-like-blk").css('display') == 'none'){
+                    $(this).addClass("active");
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-like-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-share").click(function(){
+                if($("#contact-share-blk").css('display') == 'none'){
+                    $(this).addClass("active");
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-share-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-recommend").click(function(){
+                if($("#contact-recommend-blk").css('display') == 'none'){
+                    $(this).addClass("active");
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-recommend-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            /*$("#contact-recommend").click(function(){
+                
+                    $("#contact-info-section .row").hide(500);
+                    window.location.href = "";
+            });*/
+            $("#contact-clock").click(function(){
+                 $("#contact-info-section .row").hide(500);
+               window.location.href = "activity.html";
+            });
+            $("#contact-more").click(function(){
+                if($("#contact-more-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-more-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+        });
+
+    </script>
+    <script src="js/customjs.js"></script>
+    <!--<script src="js/jquery.easypiechart.min.js"></script>-->
+    <script type="text/javascript" src="js/easypiechart-samp.min.js"></script>
+    <script src='js/plugins/cropper/js/cropper.js'></script>
+
+    <script>
+    $(document).ready(function(){
+      $("#about-education").on("hide.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-education").on("show.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-certification").on("hide.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-certification").on("show.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-honor").on("hide.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-honor").on("show.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-experiance").on("hide.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-experiance").on("show.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-skill").on("hide.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-skill").on("show.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+    });
+    </script>
+
+    </body></html>

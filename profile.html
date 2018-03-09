@@ -1,0 +1,2146 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=10.0,Transition=1)">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/KH_Symbol.png">
+
+    <title>Profile | Kritical Health App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="js/plugins/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/wc-animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Page Specific -->
+<link rel='stylesheet prefetch' href='js/plugins/cropper/css/cropper.min.css'>
+<style>
+    ul li.notifications a.ic{width:30px; height:30px;}
+    .notifications{width:40px;height:30px;}
+</style>
+  </head>
+
+   <body id="kh">
+        <div class="main-header">
+            <section id="header">
+                <nav class="navbar navbar-fixed-top kh-navbar">
+                  <div class="container">
+                    <a class="navbar-brand" href="home.html"><img src="img/KH_Symbol.png" alt="Kritical" class="img-responsive"></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                      
+                    </div>
+                    
+                    <!-- Right-side navigation -->
+                    <ul class="nav-right pull-right list-inline mgtop20 top-khnav">
+                        <li class="dropdown notifications">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">5</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInLeft">
+
+                                <div class="panel-heading">
+                                    You have <strong>5</strong> notifications
+                                </div>
+
+                                <ul class="list-group notification-scroll">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">6 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Robert locked account</span>
+                                                <small class="text-muted">18 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">20 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">30 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a role="button" tabindex="0">Show all notifications <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown messages">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">4</span>
+                            </a>
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInDown" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>4</strong> messages
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object thumb thumb-sm">
+                                                <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Imrich sent you a message</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Peter sent you a message</span>
+                                                <small class="text-muted">46 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Bill sent you a message</span>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Ken sent you a message</span>
+                                                <small class="text-muted">3 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="messaging.html" role="button" tabindex="0">Show all messages <i class="pull-right fa fa-angle-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown users">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown">
+                            <span class="badge bg-lightred">2</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInUp" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>2</strong> requests
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a href="network.html" role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                               <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Arnold sent you a request</span>
+                                                <small class="text-muted">15 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">George sent you a request</span>
+                                                <small class="text-muted">5 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="network.html" role="button" tabindex="0">Show all requests <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown nav-profile">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <img src="img/profile-icon-small.png" alt="" class="img-circle size-30x30 nav-profile-icon" >
+                            </a>
+                             <ul class="dropdown-menu animated littleFadeInRight profile-top-menu" role="menu">
+                                <li>
+                                    <a href="profile.html">
+                                        <span class="badge bg-greensea pull-right">86%</span>
+                                        <i class="fa fa-user"></i>Abraham
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="jobs.html">
+                                        <i class="fa fa-briefcase"></i>Job Posting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="settings.html">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="home.html">
+                                        <i class="fa fa-lock"></i>Lock
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Right-side navigation end -->
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav nav-left ">
+                        <li class="active menu"><a class="" href="home.html">Home
+                            <span></span></a></li>
+                        <li class="menu"><a href="network.html">Network
+                        <span></span></a></li>
+                        <li class="menu"><a href="jobs.html">Jobs<span></span></a></li> 
+                        <li class="menu"><a href="company.html">Company<span></span></a></li> 
+                        <li class="menu"><a href="groups-my.html">Groups<span></span></a></li> 
+                        <li class="menu"><a href="#">Appointments<span></span></a></li> 
+                        <li class="menu"><a href="blog-author.html">Blogs<span></span></a></li>
+                         <!--<li class="hidden-sm wc-c"><a href="#">Business</a></li>
+                         <li class="hidden-sm "><a href="#">Premium</a></li>-->
+                        </ul>
+                    </div>
+
+                  </div>
+                </nav>
+            </section>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ad-card visible-sm visible-xs" style="min-height:50px">
+                            <div class="kh-top-search">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 boxer1">
+                        <div id="top-card">
+                            <div class="profile-topcard">
+                                <div class="vcard">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                                            <div class="profile-img-containr">
+                                                <img src="img/avatar-thumb2.png" class="img-responsive profile-img"/>
+                                                
+                                                <div class="prof-img-box">
+                                                    <div class="row">
+                                                        <div class="col-xs-6" style="width:50%">
+                                                            <a href="#" data-toggle="modal" data-target="#imagecrop"> 
+                                                                <!--<img class="up-camera-icon" src="img/profilecamera.png" style="margin:0 auto">-->
+                                                                <span><img class="" src="img/kh_icons/i-pic-change.png"></span>Change
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-6" style="width:50%">
+                                                            <a href="#" class="con-item-remove" data-class="conid-propic"><span><img class="" src="img/kh_icons/i-pic-remove.png"></span> Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="profile-overview" style="">
+                                                <h2>Abraham Mathew </h2>
+                                                <h4 class="text-aqua"><a href="#" id="e-designation" data-type="text" data-pk="1" data-title="Designation">Designation</a></h4>
+                                                <h5 class="text-red"><a href="#" id="e-speciality" data-type="select" data-pk="1" data-title="Select Speciality">Speciality</a></h5>
+                                                <h5 class="text-info e-speciality-otherh5" style="display:none">
+                                                    <span class="editable-container editable-inline" style="">
+                                                       <div>
+                                                          <div class="editableform-loading" style="display: none;"></div>
+                                                          <form class="form-inline editableform" style="">
+                                                             <div class="control-group form-group">
+                                                                <div>
+                                                                   <div class="editable-input" style="position: relative;"><input type="text" class="form-control input-sm" style="padding-right: 24px;"><span class="editable-clear-x" style="display: none;"></span></div>
+                                                                   <div class="editable-buttons"><button type="submit" class="btn btn-primary btn-sm editable-submit"><i class="glyphicon glyphicon-ok"></i></button><button type="button" class="btn btn-default btn-sm editable-cancel"><i class="glyphicon glyphicon-remove"></i></button></div>
+                                                                </div>
+                                                                <div class="editable-error-block help-block" style="display: none;"></div>
+                                                             </div>
+                                                          </form>
+                                                       </div>
+                                                    </span>
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-sm-10 col-md-11">
+                                                        <p><img src="img/location-icon.png"/>  <a href="#" id="e-location" data-type="text" data-pk="1" data-title="Location">Bangalore, Karnataka</a></p>
+                                                    </div>
+                                                    <div class="col-sm-2 col-md-11 pad0">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <p class="bottom-line"></p>
+                                                <div class="row det">
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Experience</p>
+                                                        <div class="m-experience">
+                                                            <a href="#" id="e-experience" data-type="text" data-pk="1" data-title="Experience">12 </a><small>Years</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Followers</p>
+                                                        <a href="#">274</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Following</p>
+                                                        <a href="#">58</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Posts</p>
+                                                        <a href="#">25</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="profile-card-extras">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-5 col-xs-12">
+                                            
+                                        </div>
+                                        <div class="col-md-7 col-sm-7 col-xs-12">
+                                            <div class="actblk-box"><a href="activity.html" class="btn btn-follow btn-aqua mgtop2 mgleft0">ACTIVITY</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <!-- Modal -->
+                                <div id="imagecrop" class="modal fade con-messagebox" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Image Crop</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3>Profile Picture</h3>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                Current Pic : <img class="current-pic" src="img/avatar-medium2.png" width="50"/>
+                                                <div class="spacer20"></div>
+                                                <div class="img-container"><img/></div>
+                                                <div class="clerarfix"></div>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group mgtop15">
+                                                    <input type="file" name="file" onChange="previewFile()" id="multifila" class="act-file">
+                                                    <label for="multifila" class=" bg-green cropupbtn">UPLOAD PHOTO</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <button class="salvar btn btn-follow btn-aqua fl-right"><i class="fa fa-crop"></i> CROP</button>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="clearfix"></div>
+                                          <div class="row">
+                                            <div class="col-sm-12"><h3>Personal Video</h3></div>
+                                            <div class="col-sm-8">
+                                                <video width="100%" height="280" controls>
+                                                  <source src="video/whatitdoes.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                                </video>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group mgtop15">
+                                                    <input type="file" name="fileb" id="multifilb" class="act-file">
+                                                    <label for="multifilb" class=" bg-green">UPLOAD VIDEO</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card" id="about-personalinfo">
+                            <div class="cd-wrap">
+
+                                <h3>Personal Info</h3>
+                                <div class="spacer20"></div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="n-dob n-icons"><span class="n-icon-head">DOB:</span> 01 January 1983<a data-toggle="collapse" href="#profile-edit-dob" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                        </p>
+                                        <div id="profile-edit-dob" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="row">
+                                                                <div class="col-xs-3 pad-rt-0">
+                                                                    <div class="form-group">
+                                                                        <select class="wc-form-control text-center width100pc pad0">
+                                                                            <option value="1">01</option>
+                                                                            <option value="2">02</option>
+                                                                            <option value="3">03</option>
+                                                                            <option value="4">04</option>
+                                                                            <option value="5">05</option>
+                                                                            <option value="6">06</option>
+                                                                            <option value="7">07</option>
+                                                                            <option value="8">08</option>
+                                                                            <option value="9">09</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                            <option value="13">13</option>
+                                                                            <option value="14">14</option>
+                                                                            <option value="15">15</option>
+                                                                            <option value="16">16</option>
+                                                                            <option value="17">17</option>
+                                                                            <option value="18">18</option>
+                                                                            <option value="19">19</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="21">21</option>
+                                                                            <option value="22">22</option>
+                                                                            <option value="23">23</option>
+                                                                            <option value="24">24</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="26">26</option>
+                                                                            <option value="27">27</option>
+                                                                            <option value="28">28</option>
+                                                                            <option value="29">29</option>
+                                                                            <option value="30">30</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-5 pad-rt-0">
+                                                                    <div class="form-group">
+                                                                        <select class="wc-form-control text-center width100pc pad0">
+                                                                            <option value=""> Month </option>
+                                                                            <option selected value="1">January</option>
+                                                                            <option value="2">February</option>
+                                                                            <option value="3">March</option>
+                                                                            <option value="4">April</option>
+                                                                            <option value="5">May</option>
+                                                                            <option value="6">June</option>
+                                                                            <option value="7">July</option>
+                                                                            <option value="8">August</option>
+                                                                            <option value="9">September</option>
+                                                                            <option value="10">October</option>
+                                                                            <option value="11">November</option>
+                                                                            <option value="12">December</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-4">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="wc-form-control text-center width100pc pad0" id="noconsultation" placeholder="Year" value="1983">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12">
+                                                            <a data-toggle="collapse" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-dob">CANCEL</a>
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-gender n-icons"><span class="n-icon-head">Gender:</span> Male <a data-toggle="collapse" href="#profile-edit-gender" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a></p>
+                                        <div id="profile-edit-gender" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <select class="wc-form-control text-center width100pc">
+                                                                    <option value=''> Gender </option>
+                                                                    <option selected value='1'>Male</option>
+                                                                    <option value='2'>Female</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-gender">CANCEL</button>
+                                                             
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-sm-6">
+                                        <p class="n-language n-icons"><span class="n-icon-head">Languages</span> 
+                                            <a data-toggle="collapse" href="#profile-edit-language" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                            <br/>
+                                            English, Hindi, Punjabi,<br/>
+                                            French 
+                                        </p>
+                                        <div id="profile-edit-language" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:55px" placeholder="Languges">English, Hindi, Punjabi,French</textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-language">CANCEL</button> 
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-hobby n-icons"><span class="n-icon-head">Hobbies</span>
+                                            <a data-toggle="collapse" href="#profile-edit-hobby" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                            <br/>
+                                            Singing, Painting, Music,<br/>
+                                            Dancing
+                                        </p>
+                                        <div id="profile-edit-hobby" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:55px" placeholder="Hobbies">Singing, Painting, Music,Dancing</textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-hobby">CANCEL</button>
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3>Contact Info</h3>
+                                <div class="spacer20"></div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <p class="n-mail n-icons">abrahammathew@gmail.com
+                                                <a data-toggle="collapse" href="#profile-edit-mail" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </p>
+                                                <div id="profile-edit-mail" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body padbt0">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <input type="email" class="wc-form-control width100pc" id="College" placeholder="Mail ID" value="abrahammathew@gmail.com">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-mail">CANCEL</button> 
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <p class="n-mob n-icons">+91 9876 5432 10<a data-toggle="collapse" href="#profile-edit-mob" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </p>
+                                                <div id="profile-edit-mob" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body padbt0">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="wc-form-control width100pc" id="College" placeholder="Mobile No." value="+91 9876 5432 10">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-mob">CANCEL</button>
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-address n-icons"><a data-toggle="collapse" href="#profile-edit-address" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>No-150, Golden Enclave, 6th Floor, 
+                                            Corporate B Tower, Diamond Dist, Airport 
+                                            Road, Airport Road, Bengaluru, 
+                                            Karnataka 560071 
+                                        </p>
+                                        <div id="profile-edit-address" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:130px" placeholder="Address">No-150, Golden Enclave, 6th Floor, Corporate B Tower,Diamond Dist, Airport Road, Airport Road, Bengaluru,Karnataka 560071 </textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12">
+                                                            <button type="submit" data-toggle="collapse" href="#profile-edit-address" class="btn btn-cancel pull-right mgleft10 mgtop2">CANCEL</button> 
+                                                            <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        
+                        <div class="panel ad-card" id="about-desc" style="margin-bottom:0px">
+                              <div class="panel-heading"><h3 class="panel-title">About </h3></div>
+                              <div class="panel-body">
+                                    <div class="cd-wrap padtop0">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                
+                                                <a data-toggle="collapse" href="#profile-edit-about" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                <div class="spacer20"></div>
+                                                <div id="profile-edit-about" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:130px">Prior to joining Lutheran Medical Group as a Dupont Hospital hospitalist in August 2006, Alexander Mathai, MD, was an emergency room physician at the VA Hospital at the University of Illinois in Urbana-Champaign. While completing an internal medicine residency at the same hospital, where he was co-chief resident, he was honored as internal medicine resident of the year. Dr. Mathai is board certified in internal medicine, and he is a member of the American College of Physicians, the American Medical Association, the Indiana Medical Association and the Fort Wayne Medical Society.</textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-6">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                     <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                           
+                                                        </form>
+
+                                                    </div>
+                                                </div>
+                                                <div class="spacer10"></div>
+                                                <div class="about-text">
+                                                    <p>Prior to joining Lutheran Medical Group as a Dupont Hospital hospitalist in August 2006, Alexander Mathai, MD, was an emergency room physician at the VA Hospital at the University of Illinois in Urbana-Champaign. While completing an internal medicine residency at the same hospital, where he was co-chief resident, he was honored as internal medicine resident of the year. Dr. Mathai is board certified in internal medicine, and he is a member of the American College of Physicians, the American Medical Association, the Indiana Medical Association and the Fort Wayne Medical Society.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>
+                        </div>
+                            
+                        
+
+                        <div class="panel-group aboutpanel" id="accordion">
+                            <div class="panel ad-card" id="about-experiance">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#experiancecontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                           Experience <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="experiancecontent" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-exp" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Organization Name">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Designation">
+                                                                            <!--<select class="wc-form-control text-center width100pc">
+                                                                                <option value=''>Designation</option>
+                                                                                <option value='1'>Nurse Administrator</option>
+                                                                                <option value='2'>Ward In-Charge</option>
+                                                                                <option value='3'>Floor Supervisor</option>
+                                                                                <option value='4'>OT In-charge</option>
+                                                                                <option value='5'>Matron</option>
+                                                                                <option value='6'>Nursing Superintendent</option>
+                                                                                <option value='7'>Nursing Director</option>
+                                                                                <option value='8'>Nursing  In-charge</option>
+                                                                                <option value='9'>Staff Nurse</option>
+                                                                            </select>-->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="Degree" placeholder="Location">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-6 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc">
+                                                                                        <option value=''> Month </option>
+                                                                                        <option value='1'>Janaury</option>
+                                                                                        <option value='2'>February</option>
+                                                                                        <option value='3'>March</option>
+                                                                                        <option value='4'>April</option>
+                                                                                        <option value='5'>May</option>
+                                                                                        <option value='6'>June</option>
+                                                                                        <option value='7'>July</option>
+                                                                                        <option value='8'>August</option>
+                                                                                        <option value='9'>September</option>
+                                                                                        <option value='10'>October</option>
+                                                                                        <option value='11'>November</option>
+                                                                                        <option value='12'>December</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-6">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-6 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc">
+                                                                                        <option value=''> Month</option>
+                                                                                        <option value='1'>Janaury</option>
+                                                                                        <option value='2'>February</option>
+                                                                                        <option value='3'>March</option>
+                                                                                        <option value='4'>April</option>
+                                                                                        <option value='5'>May</option>
+                                                                                        <option value='6'>June</option>
+                                                                                        <option value='7'>July</option>
+                                                                                        <option value='8'>August</option>
+                                                                                        <option value='9'>September</option>
+                                                                                        <option value='10'>October</option>
+                                                                                        <option value='11'>November</option>
+                                                                                        <option value='12'>December</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-6">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <textarea  class="wc-form-control width100pc height80" placeholder="Description"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Chief Surgeon
+                                                    <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Amrita Vishwa Vidyapeetham</p>
+                                                        <p>May 2003 - Present ( 12 Years 6 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        <img src="img/hospital-logo.png" class="img-responsive"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <p>Amrita Vishwa Vidyapeetham is a private university in India, spread across South India in the states of Kerala, Tamil Nadu and Karnataka. The university headquarters are at Ettimadai, approximately twenty-two kilometers from Coimbatore City.</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                       
+                                                    </div>
+                                                </div>
+                                                <div class="spacer5"></div>
+                                            </div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer5"></div>
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Senior Surgeon
+                                                     <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Evershine Hospital</p>
+                                                        <p>April 2000 - May 2013 ( 3 Years 1 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                      
+                                                    </div>
+                                                </div>
+                                                <div class="spacer5"></div>
+                                            </div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer5"></div>
+                                            <h4 class="text-aqua">Junior Surgeon
+                                                 <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                            </h4>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">KIMS Hospital</p>
+                                                    <p>April 1999 - April 2000 ( 1 Years 1 Months )</p>
+                                                    <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-9">
+                                                    
+                                                </div>
+                                                <div class="col-sm-3">
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-education">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#educontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Education <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="educontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-edu" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="degree_autocomplete" placeholder="Degree">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="School/College *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="University">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <h4 class="text-aqua">Degree</h4>
+                                                    <p class="kh-font-bold">Name of School/College</p>
+                                                    <p>2003 - Present</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                           <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <h4 class="text-aqua">Degree</h4>
+                                                    <p class="kh-font-bold">Name of School/College</p>
+                                                    <p>2003 - Present</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <h4 class="text-aqua">Degree</h4>
+                                                    <p class="kh-font-bold">Name of School/College</p>
+                                                    <p>2003 - Present</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-certification">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#certicontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Certifications <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="certicontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-certi" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Certification *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Accrediting Board">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">American Board of Internal Medicine</p>
+                                                    <p>Certified in Internal Medicine</p>
+                                                    <p>Active through 2016</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                           <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">CA State Medical License</p>
+                                                    <p>Medical License</p>
+                                                    <p>Active through 2017</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">IN State Medical License</p>
+                                                    <p>Medical License</p>
+                                                    <p>Active through 2014</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-honor">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#honourcontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Recognitions <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="honourcontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-recogn" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer5"></div>
+                                                    <div id="profile-edit-recogn" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form" class="margintb0">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            
+                                                                            <select class="wc-form-control text-center width100pc">
+                                                                                <option value=''>Recognition Type</option>
+                                                                                <option value='1'>Achievement</option>
+                                                                                <option value='2'>Award</option>
+                                                                                <option value='3'>Publication</option>
+                                                                                <option value='4'>Professional Affiliation</option>
+                                                                                <option value='5'>Other</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-3 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc" style="padding:6px">
+                                                                                        <option value='1'>01</option>
+                                                                                        <option value='2'>02</option>
+                                                                                        <option value='3'>03</option>
+                                                                                        <option value='4'>04</option>
+                                                                                        <option value='5'>05</option>
+                                                                                        <option value='6'>06</option>
+                                                                                        <option value='7'>07</option>
+                                                                                        <option value='8'>08</option>
+                                                                                        <option value='9'>09</option>
+                                                                                        <option value='10'>10</option>
+                                                                                        <option value='11'>11</option>
+                                                                                        <option value='12'>12</option>
+                                                                                        <option value='13'>13</option>
+                                                                                        <option value='14'>14</option>
+                                                                                        <option value='15'>15</option>
+                                                                                        <option value='16'>16</option>
+                                                                                        <option value='17'>17</option>
+                                                                                        <option value='18'>18</option>
+                                                                                        <option value='19'>19</option>
+                                                                                        <option value='20'>20</option>
+                                                                                        <option value='21'>21</option>
+                                                                                        <option value='22'>22</option>
+                                                                                        <option value='23'>23</option>
+                                                                                        <option value='24'>24</option>
+                                                                                        <option value='25'>25</option>
+                                                                                        <option value='26'>26</option>
+                                                                                        <option value='27'>27</option>
+                                                                                        <option value='28'>28</option>
+                                                                                        <option value='29'>29</option>
+                                                                                        <option value='30'>30</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-5 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc">
+                                                                                        <option value=''> Month </option>
+                                                                                        <option value='1'>January</option>
+                                                                                        <option value='2'>February</option>
+                                                                                        <option value='3'>March</option>
+                                                                                        <option value='4'>April</option>
+                                                                                        <option value='5'>May</option>
+                                                                                        <option value='6'>June</option>
+                                                                                        <option value='7'>July</option>
+                                                                                        <option value='8'>August</option>
+                                                                                        <option value='9'>September</option>
+                                                                                        <option value='10'>October</option>
+                                                                                        <option value='11'>November</option>
+                                                                                        <option value='12'>December</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-4">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="Degree" placeholder="Recognition Name/Heading">
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <textarea  class="wc-form-control width100pc height80" placeholder="Description"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group mgtop15">
+                                                                            <input type="file" name="file" id="imgfacility" class="act-file" multiple/>
+                                                                            <label for="imgfacility" class=" bg-green">UPLOAD PHOTOS</label>
+                                                                            <img style="margin-left:20px; display:none" id="blahfacility" src="" alt="your image" height="100" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="spacer5"></div>
+                                                </div>
+
+                                            </div>
+                                            <div class="recog-award">
+                                                <h4 class="text-aqua fontsize16 kh-font-bold">Award</h4>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="spacer5"></div>
+                                                        <div id="profile-edit-award" class="panel-collapse collapse bg-lightblue" style=" margin-bottom: 10px;">
+                                                            <div class="panel-body">
+                                                                <form role="form" class="margintb0">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group">
+                                                                                
+                                                                                <select class="wc-form-control text-center width100pc">
+                                                                                    <option value=''>Recognition Type</option>
+                                                                                    <option value='1'>Achievement</option>
+                                                                                    <option selected value='2'>Award</option>
+                                                                                    <option value='3'>Publication</option>
+                                                                                    <option value='4'>Professional Affiliation</option>
+                                                                                    <option value='5'>Other</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="row">
+                                                                                <div class="col-xs-3 pad-rt-0">
+                                                                                    <div class="form-group">
+                                                                                        <select class="wc-form-control text-center width100pc" style="padding:6px">
+                                                                                            <option value='1'>01</option>
+                                                                                            <option value='2'>02</option>
+                                                                                            <option value='3'>03</option>
+                                                                                            <option value='4'>04</option>
+                                                                                            <option value='5'>05</option>
+                                                                                            <option value='6'>06</option>
+                                                                                            <option value='7'>07</option>
+                                                                                            <option value='8'>08</option>
+                                                                                            <option value='9'>09</option>
+                                                                                            <option value='10'>10</option>
+                                                                                            <option value='11'>11</option>
+                                                                                            <option value='12'>12</option>
+                                                                                            <option value='13'>13</option>
+                                                                                            <option value='14'>14</option>
+                                                                                            <option selected value='15'>15</option>
+                                                                                            <option value='16'>16</option>
+                                                                                            <option value='17'>17</option>
+                                                                                            <option value='18'>18</option>
+                                                                                            <option value='19'>19</option>
+                                                                                            <option value='20'>20</option>
+                                                                                            <option value='21'>21</option>
+                                                                                            <option value='22'>22</option>
+                                                                                            <option value='23'>23</option>
+                                                                                            <option value='24'>24</option>
+                                                                                            <option value='25'>25</option>
+                                                                                            <option value='26'>26</option>
+                                                                                            <option value='27'>27</option>
+                                                                                            <option value='28'>28</option>
+                                                                                            <option value='29'>29</option>
+                                                                                            <option value='30'>30</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xs-5 pad-rt-0">
+                                                                                    <div class="form-group">
+                                                                                        <select class="wc-form-control text-center width100pc">
+                                                                                            <option value=''> Month </option>
+                                                                                            <option value='1'>January</option>
+                                                                                            <option value='2'>February</option>
+                                                                                            <option value='3'>March</option>
+                                                                                            <option value='4'>April</option>
+                                                                                            <option selected value='5'>May</option>
+                                                                                            <option value='6'>June</option>
+                                                                                            <option value='7'>July</option>
+                                                                                            <option value='8'>August</option>
+                                                                                            <option value='9'>September</option>
+                                                                                            <option value='10'>October</option>
+                                                                                            <option value='11'>November</option>
+                                                                                            <option value='12'>December</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xs-4">
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year" value="2013">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="clearfix"></div>
+                                                                        <div class="col-sm-12">
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="wc-form-control width100pc" id="Degree" placeholder="Recognition Name/Heading" value="Dr. B.C. Roy National Award ">
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="clearfix"></div>
+                                                                        <div class="col-sm-12">
+                                                                            <div class="form-group">
+                                                                                <textarea  class="wc-form-control width100pc height80" placeholder="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</textarea>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="clearfix"></div>
+                                                                        <div class="col-sm-12">
+                                                                            <div id="award-result">
+                                                                                <div class="awd1"><img class="thumbnail img-responsive" src="img/thumb-awards.jpg" title="Awards"> <a href="#" class="remove_pict">x</a></div>
+                                                                                <div class="awd2"><img class="thumbnail img-responsive" src="img/thumbb.png" title="Awards"> <a href="#" class="remove_pict">x</a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="clearfix"></div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group mgtop15">
+                                                                                <input type="file" name="file" id="multifiles" class="act-file" multiple/>
+                                                                                <label for="multifiles" class=" bg-green">UPLOAD PHOTOS OR VIDEOS</label>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                             <a data-toggle="collapse" href="#profile-edit-award" class="btn btn-cancel pull-right mgleft10" aria-expanded="false">CANCEL</a>
+                                                                             <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                   
+                                                                </form>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="prof-awarditem item1">
+                                                    <div class="row">
+                                                        <div class="col-xs-8 col-sm-9 col-md-10">
+                                                            <p class="kh-font-bold">Heading</p>
+                                                            <p>May 15, 2003</p>
+                                                        </div>
+                                                        <div class="col-xs-4 col-sm-3 col-md-2">
+                                                            <p><a data-toggle="collapse" href="#profile-edit-award" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a></p><br/>
+                                                            <p><a href="#" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 close-btn"><img src="img/kh_icons/g-cross.png"></span></a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                        </div>
+                                                        <div class="prof-awarditem-gallery col-sm-12 ">
+                                                            <div class="row">
+                                                                <div class="col-xs-4">
+                                                                    <img src="img/thumb-awards.jpg" class="img-responsive"/>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="prof-awarditem item1">
+                                                    <div class="row">
+                                                        <div class="col-xs-8 col-sm-9 col-md-10">
+                                                            <p class="kh-font-bold">Heading 1</p>
+                                                            <p>April 14, 2005</p>
+                                                        </div>
+                                                        <div class="col-xs-4 col-sm-3 col-md-2">
+                                                            <p><a data-toggle="collapse" href="#profile-edit-award" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a></p><br/>
+                                                            <p><a href="#" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 close-btn"><img src="img/kh_icons/g-cross.png"></span></a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                        </div>
+                                                        <div class="prof-awarditem-gallery col-sm-12 ">
+                                                            <div class="row">
+                                                                <div class="col-xs-10 col-sm-8">
+                                                                    <iframe width="100%" height="280" src="https://www.youtube.com/embed/MIQpsMQqDF8" frameborder="0" allowfullscreen></iframe>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="prof-awarditem item1">
+                                                    <div class="row">
+                                                        <div class="col-xs-8 col-sm-9 col-md-10">
+                                                            <p class="kh-font-bold">Heading 2</p>
+                                                            <p>Dec 15, 2003</p>
+                                                        </div>
+                                                        <div class="col-xs-4 col-sm-3 col-md-2">
+                                                            <p><a data-toggle="collapse" href="#profile-edit-award" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a></p><br/>
+                                                            <p><a href="#" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 close-btn"><img src="img/kh_icons/g-cross.png"></span></a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <p>Nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="spacer10"></div>
+                                            <div class="recog-testimonial">
+                                                <h4 class="text-aqua fontsize16 kh-font-bold">Testimonial</h4>
+                                                
+                                                <div class="prof-testiitem">
+                                                    <div class="row">
+                                                        <div class="col-xs-8 col-sm-9 col-md-10">
+                                                            <p class="kh-font-bold">By Writer's Name</p>
+                                                            <p>January 15, 2008</p>
+                                                            <div id="profile-edit-testimon" class="panel-collapse collapse bg-lightblue" style="margin-bottom:10px">
+                                                                <div class="panel-body">
+                                                                    <form role="form" class="margintb0">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <h3 style="margin-top:0px">Testimonial by Dr. Ajay.</h3>
+                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                                            </div>
+                                                                            <div class="col-sm-12">
+                                                                                 <button type="submit" class="btn btn-follow  mgleft10">APPROVE</button>
+                                                                                 <button type="submit" class="btn btn-cancel mgleft10">HIDE</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4 col-sm-3 col-md-2">
+                                                            <a data-toggle="collapse" href="#profile-edit-testimon" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                        </div>
+                                                        <div class="prof-awarditem-gallery col-sm-12 ">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel ad-card" id="about-skill">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#skillcontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Skills & Endorsements <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="skillcontent" class="panel-collapse collapse">
+                                    <div class="panel-body"  id="skills-card" style="margin-top:0px">
+                                        <div class="cd-wrap">
+                                            <h4 class="text-aqua">Top Skills</h4>
+                                            <div class="row">
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="chart" data-percent="86">
+                                                        <p><span>2407</span> Healthcare Management</p>
+                                                    </span>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="charta" data-percent="70">
+                                                        <p><span>1750</span> Medical Education</p>
+                                                    </span>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <span class="chartb" data-percent="60">
+                                                        <p><span>874</span> Aerospace Medicine</p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <div class="spacer20"></div>
+                                                    <button class="btn btn-primary btn-skills">View all skills</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-4 boxer2">
+                        <div class="ad-card hidden-xs hidden-sm">
+                            <div class="cd-wrap-right">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div id="profileview-card">
+                            <div class="cd-wrap-right">
+                                <form method="post" action="#">
+                                    <h3>Profile Strength  
+                                        <div class="ratings pull-right">
+                                        <span class="starRating">
+                                          <input id="rating5" type="radio" name="rating" value="5">
+                                          <label for="rating5">5</label>
+                                          <input id="rating4" type="radio" name="rating" value="4">
+                                          <label for="rating4">4</label>
+                                          <input id="rating3" type="radio" name="rating" value="3" checked>
+                                          <label for="rating3">3</label>
+                                          <input id="rating2" type="radio" name="rating" value="2">
+                                          <label for="rating2">2</label>
+                                          <input id="rating1" type="radio" name="rating" value="1">
+                                          <label for="rating1">1</label>
+                                        </span>
+                                        </div>
+                                    </h3>
+                                </form>
+                                <div class="spacer20"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer20"></div>
+                                <h3>Ads You May Be Interested In</h3>
+                                <div class="spacer20"></div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gmail For Work</p>
+                                        <p>Business Class Email Solution. The Gmail you love- for Work.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gavin Ng Lung Kit</p>
+                                        <p>Reach new heights</p>
+                                        <p>Starting a business? Want to grow your business? Your business stagnates?</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">LinkedIn</p>
+                                        <p>Invitation from LinkedIn</p>
+                                        <p>Place ads on LinkedIn. Acquire new customers for your business. Try it now.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right  pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitch">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card">
+                            <div class="">
+                                <img src="img/ad.png" style="margin:0 auto" class="img-responsive"/>
+
+                            </div>
+                        </div>
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitchs" class="onoffswitch-checkbox" id="myonoffswitchs" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitchs">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-footer full-width">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="home.html"><img src="img/kh_logo.png" alt="Kritical" class="img-responsive"></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="footer-links1">
+                            <a class="" href="#">About</a> &nbsp; 
+                            <a class="" href="#">Networks</a> &nbsp; 
+                            <a class="" href="groups.html">Groups</a> &nbsp; 
+                            <a class="" href="blog.html">Blogs</a> &nbsp;
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <p class="text-center">
+                            <a class="" href="#">Careers</a> | 
+                            <a class="" href="#">About</a> | 
+                            <a class="" href="#">Cookie Policy</a> | 
+                            <a class="" href="#">Privacy Policy</a> | 
+                            <a class="" href="#">User Agreement</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 text-center">    
+                        <p class="">Kritical Health Corporation © 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+   <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>-->
+    <script src="js/bootstrap.min.js"></script>
+        <!-- SCRIPTS -->
+    <script src="js/plugins/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+
+    <script src="js/bootbox.js"></script>
+    <script src="js/instafilta.min.js"></script>
+    <script>
+        $(document).on("click", ".con-item-remove", function(e) {
+            var a = this;
+            bootbox.confirm("Are you sure you want to remove this photo?", function(result) {
+                if(result == true){
+                    /*var conid = $(a).attr('data-class');
+                    $('.'+conid).slideUp(1000);*/
+                    $(".profile-img").attr("src","img/avatar_male.png");
+                    setTimeout(function(){
+                     location.reload();
+                    }, 4000);
+                }
+            }); 
+        });
+    </script>
+
+    <script>
+        /* Only For Profile Page */
+        $(document).ready(function(){
+            $(".prof-menu .c-icon").click(function(){
+                $("#contact-info-section").slideDown("medium");
+                $('.c-icon').removeClass("active");
+               $(this).addClass("active");
+            });
+            $("#contact-address").click(function(){
+                if($("#contact-address-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-address-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-message").click(function(){
+                if($("#contact-message-blk").css('display') == 'none'){
+                     $("#contact-info-section .row").hide(500);
+                    $("#contact-message-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-like").click(function(){
+                if($("#contact-like-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-like-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-share").click(function(){
+                if($("#contact-share-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-share-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            $("#contact-recommend").click(function(){
+                if($("#contact-recommend-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-recommend-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+            /*$("#contact-recommend").click(function(){
+                
+                    $("#contact-info-section .row").hide(500);
+                    window.location.href = "";
+            });*/
+            $("#contact-clock").click(function(){
+                 $("#contact-info-section .row").hide(500);
+               window.location.href = "activity.html";
+            });
+            $("#contact-more").click(function(){
+                if($("#contact-more-blk").css('display') == 'none'){
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-more-blk").show(1000);
+                }else{
+                    $("#contact-info-section .row").hide(500);
+                    $("#contact-info-section").slideUp("slow");
+                }
+            });
+        });
+
+    </script>
+    <script src="js/customjs.js"></script>
+    <!--<script src="js/jquery.easypiechart.min.js"></script>-->
+    <script type="text/javascript" src="js/easypiechart-samp.min.js"></script>
+    <script src='js/plugins/cropper/js/cropper.js'></script>
+    <script>
+    /*var reloder = settile;*/
+        var recorte = $('.img-container > img');
+        recorte.cropper({
+            aspectRatio: 1 / 1,
+            movable: false,
+            zoomable: false,
+            rotatable: false,
+            scalable: true
+        });
+        function previewFile() {
+            $('.current-pic').hide();
+            var file = document.querySelector('input[type=file]').files[0];
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                $('img').show();
+                recorte.cropper('replace', reader.result);
+            };
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                recorte.cropper('replace', '');
+            }
+        }
+        $('.salvar').click(function () {
+            
+            var imgcrop = recorte.cropper('getCroppedCanvas').toDataURL();
+            $(".current-pic").attr("src",imgcrop);
+            $(".profile-img").attr("src",imgcrop);
+            $('.close').click();
+            $('.img-container').hide();
+            setTimeout(function(){
+             location.reload();
+            }, 4000);
+            
+        });
+
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#about-education").on("hide.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-education").on("show.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-certification").on("hide.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-certification").on("show.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-honor").on("hide.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-honor").on("show.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-experiance").on("hide.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-experiance").on("show.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-skill").on("hide.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-skill").on("show.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+    });
+    </script>
+
+    <script type="text/javascript" src="js/plugins/autocomplete/jquery.autocomplete.js"></script>
+    <script>
+        var degreelist = [
+           { value: 'M.B.B.S', data: 'MBBS' },
+           { value: 'B.D.S (Bachelor of Dental Surgery)', data: 'BDS' },
+           { value: 'B.Pharma (Bachelor of Pharmacy)', data: 'BPharma' },
+           { value: 'B.Sc Nursing', data: 'MBBS' },
+           { value: 'B.P.T (Physiotherapy)', data: 'MBBS' },
+           { value: 'B.O.T (Occupational Therapy)', data: 'MBBS' },
+           { value: 'B.H.M.S(Homeopathy Medicine)', data: 'MBBS' },
+           { value: 'B.U.M.S(Unani Medicine)', data: 'MBBS' },
+           { value: 'Optometry', data: 'MBBS' },
+           { value: 'Ophthalmic Assistant Medical course', data: 'MBBS' },
+           { value: 'Histopathalogical Lab Technology', data: 'MBBS' },
+           { value: 'B.A.M.S(Ayurvedic, Siddha Medicine)', data: 'MBBS' },
+           { value: 'Radiological Assistant', data: 'MBBS' },
+           { value: ' Nuclear Medicine Technology', data: 'ZZ' }
+        ];
+
+        $('#degree_autocomplete').autocomplete({
+            lookup: degreelist,
+            onSelect: function (suggestion) {
+                /*alert('You selected: ' + suggestion.value + ', ' + suggestion.data);*/
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                $.fn.editable.defaults.mode = 'inline'; 
+                $.fn.editable.defaults.ajaxOptions = {type: "post"}   
+                
+                //make Designation editable
+                $('#e-designation').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-designation').html(val);}
+                    }
+                });
+                
+                //make Location editable
+                $('#e-location').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-location').html(val);}
+                    }
+                });
+
+                $('#e-experience').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-experience').html(val);}
+                    }
+                });
+
+                $('#e-speciality').editable({
+                    value: 1,
+                    pk: 1,    
+                    source: [
+                          {value: 1, text: 'Speciality 1'},
+                          {value: 2, text: 'Speciality 2'},
+                          {value: 3, text: 'Speciality 3'},
+                          {value: 4, text: 'Other'}
+                       ],
+                    url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val == '4'){ $('.e-speciality-otherh5').show();}
+                    }
+                });
+                $("#e-speciality-other").editable({ 
+                    value: '',
+                    pk: 1, 
+                    url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-speciality').html(val); $('.e-speciality-otherh5').hide();}
+                    }
+                });
+                
+
+            });
+    </script>
+    <script type="text/javascript">
+        window.onload = function(){
+                
+            //Check File API support
+            if(window.File && window.FileList && window.FileReader)
+            {
+                var filesInput = document.getElementById("multifiles");
+                filesInput.addEventListener("change", function(event){
+                    var files = event.target.files; //FileList object
+                    var output = document.getElementById("award-result");
+                    for(var i = 0; i< files.length; i++)
+                    {
+                        var file = files[i];
+                        //Only pics
+                        if(!file.type.match('image'))
+                          continue;
+                        var picReader = new FileReader();
+                        picReader.addEventListener("load",function(event){ 
+                            var picFile = event.target;
+                            var div = document.createElement("div");
+                            div.className  = "awimg_"+Math.floor((Math.random() * 100) + 1);;
+                            div.innerHTML = "<img class='thumbnail img-responsive' src='" + picFile.result + "'" +
+                                    "title='Awards'/>";
+                            output.insertBefore(div,null);
+                        });
+                        //Read the image
+                        picReader.readAsDataURL(file);
+                    }
+                });
+            }
+            else
+            {
+                console.log("Your browser does not support File API");
+            }
+        }
+
+        $(document).ready(function(){
+            $(".remove_pict").click(function(){ 
+                var remimg = $(this).parent().prop('className');
+                $("."+remimg).hide();return false;
+            });
+            $(".prof-awarditem .close-btn").click(function(){ 
+                $(".recog-award .prof-awarditem").hide();return false;
+            });
+        });
+
+    </script>
+    </body></html>

@@ -1,0 +1,960 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=10.0,Transition=1)">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/KH_Symbol.png">
+
+    <title>Networks | Kritical Health App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--<link href="css/wc-animate.css" rel="stylesheet">-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+
+   <body class="networkpage bodycss">
+        <div class="main-header">
+            <section id="header">
+                <nav class="navbar navbar-fixed-top kh-navbar">
+                  <div class="container">
+                    <a class="navbar-brand" href="home.html"><img src="img/KH_Symbol.png" alt="Kritical" class="img-responsive"></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                      
+                    </div>
+                    
+                    <!-- Right-side navigation -->
+                    <ul class="nav-right pull-right list-inline mgtop20 top-khnav">
+                        <li class="dropdown notifications">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">5</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInLeft">
+
+                                <div class="panel-heading">
+                                    You have <strong>5</strong> notifications
+                                </div>
+
+                                <ul class="list-group notification-scroll">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">6 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Robert locked account</span>
+                                                <small class="text-muted">18 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">20 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">30 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a role="button" tabindex="0">Show all notifications <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown messages">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">4</span>
+                            </a>
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInDown" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>4</strong> messages
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object thumb thumb-sm">
+                                                <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Imrich sent you a message</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Peter sent you a message</span>
+                                                <small class="text-muted">46 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Bill sent you a message</span>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Ken sent you a message</span>
+                                                <small class="text-muted">3 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="messaging.html" role="button" tabindex="0">Show all messages <i class="pull-right fa fa-angle-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown users">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown">
+                            <span class="badge bg-lightred">2</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInUp" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>2</strong> requests
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a href="network.html" role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                               <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Arnold sent you a request</span>
+                                                <small class="text-muted">15 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">George sent you a request</span>
+                                                <small class="text-muted">5 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="network.html" role="button" tabindex="0">Show all requests <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown nav-profile">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <img src="img/profile-icon-small.png" alt="" class="img-circle size-30x30 nav-profile-icon" >
+                            </a>
+                             <ul class="dropdown-menu animated littleFadeInRight profile-top-menu" role="menu">
+                                <li>
+                                    <a href="profile.html">
+                                        <span class="badge bg-greensea pull-right">86%</span>
+                                        <i class="fa fa-user"></i>Abraham
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="jobs.html">
+                                        <i class="fa fa-briefcase"></i>Job Posting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="settings.html">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="home.html">
+                                        <i class="fa fa-lock"></i>Lock
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Right-side navigation end -->
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav nav-left ">
+                        <li class="active menu"><a class="" href="home.html">Home
+                            <span></span></a></li>
+                        <li class="menu"><a href="network.html">Network
+                        <span></span></a></li>
+                        <li class="menu"><a href="jobs.html">Jobs<span></span></a></li> 
+                        <li class="menu"><a href="company.html">Company<span></span></a></li> 
+                        <li class="menu"><a href="groups-my.html">Groups<span></span></a></li> 
+                        <li class="menu"><a href="#">Appointments<span></span></a></li> 
+                        <li class="menu"><a href="blog-author.html">Blogs<span></span></a></li>
+                         <!--<li class="hidden-sm wc-c"><a href="#">Business</a></li>
+                         <li class="hidden-sm "><a href="#">Premium</a></li>-->
+                        </ul>
+                    </div>
+
+                  </div>
+                </nav>
+            </section>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ad-card visible-sm visible-xs" style="min-height:50px">
+                            <div class="kh-top-search">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 boxer1">
+
+                        <div class="ad-card" id="ex2">
+                            <div class="net-filterbox">
+                                <div class="row">
+                                    <div class="col-sm-4 item">
+                                        <span class="filter-title">Filter by </span>
+                                        <select class="" name="">
+                                            <option>All Contacts</option>
+                                            <option>Connections Only</option>
+                                            <option>Tag</option>
+                                            <option>Source</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 item">
+                                        <span class="filter-title">Sort by </span>
+                                        <select class="" name="">
+                                            <option>Recently added</option>
+                                            <option>First name</option>
+                                            <option>Last Name</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 item">
+                                        <fieldset class="controls">
+                                            <input type="text" name="search" placeholder="Find" id="ex2f"/>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="connectionbox">
+
+                                <div class="row">
+
+                                    <div class="col-sm-12 conid1 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/swathi.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <a href="profile.html"><h3>Swathi Jain</h3></a>
+                                                <h4 class="text-aqua">Chief Surgeon</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Bangalore, Karnataka</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox1" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid1"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+                                                            <!-- Popup Message -->
+                                                            <div class="modal fade con-messagebox" id="con-messagebox1" role="dialog">
+                                                                <div class="modal-dialog modal-sm">
+                                                                  <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                      <h4 class="modal-title">Congratulate Swathi Jain</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-12">
+                                                                              <img src="img/profile/swathi.jpg" width="80" /> <span class="font-regular">Swathi Jain</span>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                              <div class="spacer15"></div>
+                                                                              <form role="form">
+                                                                                <div class="form-group">
+                                                                                    <span class="form-control"><span class="mg-rt-5"><img class="mgtopm3" src="img/kh_icons/e-khlogo.png"/></span><span class="mgtop2">Send via Message</span></span>
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <input type="email" class="form-control" id="email" placeholder="Subject">
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <textarea placeholder="Add your message" class="form-control"></textarea>
+                                                                                  </div>
+                                                                                  <button type="button" class="btn btn-default btn-follow" data-dismiss="modal">Send Message</button>
+                                                                              <button type="button" class="btn btn-primary btn-follow con-btn-close" data-dismiss="modal">Close</button>
+                                                                              </form>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                            
+                                                                          </div>
+
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                          </div>
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12 conid2 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/ragini.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Ragini Sharma</h3>
+                                                <h4 class="text-aqua">Physician</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Newdelhi</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox2" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid2"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+                                                            <!-- Popup Message -->
+                                                            <div class="modal fade con-messagebox" id="con-messagebox2" role="dialog">
+                                                                <div class="modal-dialog modal-sm">
+                                                                  <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                      <h4 class="modal-title">Congratulate Ragini Sharma</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-12">
+                                                                              <img width="80" src="img/profile/ragini.jpg"/> <span class="font-regular">Ragini Sharma</span>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                              <div class="spacer15"></div>
+                                                                              <form role="form">
+                                                                                <div class="form-group">
+                                                                                    <span class="form-control"><span class="mg-rt-5"><img class="mgtopm3" src="img/kh_icons/e-khlogo.png"/></span><span class="mgtop2">Send via Message</span></span>
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <input type="email" class="form-control" id="email" placeholder="Subject">
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <textarea placeholder="Add your message" class="form-control"></textarea>
+                                                                                  </div>
+                                                                                  <button type="button" class="btn btn-default btn-follow" data-dismiss="modal">Send Message</button>
+                                                                              <button type="button" class="btn btn-primary btn-follow con-btn-close" data-dismiss="modal">Close</button>
+                                                                              </form>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                            
+                                                                          </div>
+
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                          </div>
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12  conid3 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/rakesh.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Rakesh Sinha </h3>
+                                                <h4 class="text-aqua">Dentists</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Mumbai, Maharastra</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox3" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid3"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+                                                            <!-- Popup Message -->
+                                                            <div class="modal fade con-messagebox" id="con-messagebox3" role="dialog">
+                                                                <div class="modal-dialog modal-sm">
+                                                                  <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                      <h4 class="modal-title">Congratulate Rakesh Sinha</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-12">
+                                                                              <img width="80" src="img/profile/rakesh.jpg"/> <span class="font-regular">Rakesh Sinha</span>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                              <div class="spacer15"></div>
+                                                                              <form role="form">
+                                                                                <div class="form-group">
+                                                                                    <span class="form-control"><span class="mg-rt-5"><img class="mgtopm3" src="img/kh_icons/e-khlogo.png"/></span><span class="mgtop2">Send via Message</span></span>
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <input type="email" class="form-control" id="email" placeholder="Subject">
+                                                                                  </div>
+                                                                                  <div class="form-group">
+                                                                                    <textarea placeholder="Add your message" class="form-control"></textarea>
+                                                                                  </div>
+                                                                                  <button type="button" class="btn btn-default btn-follow" data-dismiss="modal">Send Message</button>
+                                                                              <button type="button" class="btn btn-primary btn-follow con-btn-close" data-dismiss="modal">Close</button>
+                                                                              </form>
+                                                                          </div>
+                                                                          <div class="col-xs-12">
+                                                                            
+                                                                          </div>
+
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                          </div>
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12  conid4 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/shashank.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Shashank Verma </h3>
+                                                <h4 class="text-aqua">Medical Assistants</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Ranchi, Jharkhand</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox1" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid4"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12  conid5 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/dipti.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Dipti Rao</h3>
+                                                <h4 class="text-aqua">Dietitians and Nutritionists</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Pune, Maharastra</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox1" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid5"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12  conid6 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/ajay.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Ajay Rathod</h3>
+                                                <h4 class="text-aqua">Pharmacists</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Indore, Madhya Pradesh</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox1" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid6"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+
+                                    <div class="col-sm-12  conid7 instafilta-target">
+                                        <div class="con-item ease">
+                                            <div class="connection-imgbox col-xs-4 col-sm-3 col-md-2 text-center">
+                                                <img src="img/profile/ragini.jpg" class=""/>
+                                            </div>
+                                            <div class="connection-contentbox col-xs-8 col-sm-9 col-md-10">
+                                                <h3>Radhika Mehta</h3>
+                                                <h4 class="text-aqua">Physcian</h4>
+                                                <p><img src="img/location-icon.png" class="mg-rt-2">Mumbai, Maharastra</p>
+                                                <div class="con-action">
+                                                    <ul class="list-inline">
+                                                        <li class="dropdown">
+                                                            <a href="" class="text-red dropdown-toggle" data-toggle="dropdown"><img src="img/kh_icons/e-tag.png"/>Tag</a>
+                                                            <ul class="dropdown-menu con-tag-action">
+                                                              <li><a href="#"><input type="checkbox"/> Classmates</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Colleagues</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Friends</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Group Member</a></li>
+                                                              <li><a href="#"><input type="checkbox"/> Partner</a></li>
+                                                              <li><p class="bottom-line-light"></p></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-plus.png"/></span>Add New</a></li>
+                                                              <li><a href="#" class="text-red"><span class="mg-rt-5"><img src="img/kh_icons/e-setting.png"/></span>Manage</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" data-toggle="modal" data-target="#con-messagebox1" class="text-red"><img src="img/kh_icons/e-message.png"/>Message</a>
+                                                            
+                                                          
+                                                        </li>
+                                                        <li><a href="#" class="text-red con-item-remove" data-class="conid7"><img src="img/kh_icons/e-remove.png"/>Remove</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div><p class="bottom-line-light"></p>
+                                    </div>
+                                    <div class="">
+                                        <div class="ease">
+                                            <div class="">
+                                                <span id="filter-results" style="margin:0 20%"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 boxer2">
+
+                        <div class="ad-card">
+                            <div class="cd-wrap-right">
+                                <h3>Import Contacts</h3>
+                                <p>Get started by adding your email address or choosing a service provider</p>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <a href="network-import.html" class="btn btn-follow margintb0 pull-right">Add Contacts</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="ad-card">
+                            <div class="cd-wrap-right">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="ad-card net-boxitem">
+                            <div class="cd-wrap-right">
+                                <h3>Connections</h3>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                        <a href="profile.html"><img src="img/kh_icons/pbig2.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Jyoti Singh</a></h3>
+                                        <p class="marg0">is having a work anniversary.</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Say Congrats</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                         <a href="profile.html"><img src="img/kh_icons/pbig1.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Rakesh Sharma</a></h3>
+                                        <p class="marg0">is having a work anniversary.</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Say Congrats</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                        <a href="profile.html"><img src="img/kh_icons/pbig3.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Sunil Khanna</a></h3>
+                                        <p class="marg0">is having a work anniversary.</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Say Congrats</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card net-boxitem">
+                            <div class="cd-wrap-right">
+                                <h3>You May Know</h3>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                        <a href="profile.html"><img src="img/kh_icons/pbig1.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Rakesh Sharma</a></h3>
+                                        <p class="marg0">In Common: You both know Raj Kumar and Ravi Kiran</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Connect</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                         <a href="profile.html"><img src="img/kh_icons/pbig2.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Jyoti Singh</a></h3>
+                                        <p class="marg0">In Common: You both know Raj Kumar and Ravi Kiran</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Connect</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer10"></div>
+                                <div class="row">
+                                    <div class="col-xs-3 text-center">
+                                        <a href="profile.html"><img src="img/kh_icons/pbig3.png"/></a>
+                                    </div>
+                                    <div class="col-xs-9 nopadding">
+                                        <h3 class="blog-side-title"><a href="profile.html">Sunil Khanna</a></h3>
+                                        <p class="marg0">In Common: You both know Raj Kumar and Ravi Kiran</p>
+                                        <ul class="list-inline font-regular"><li><a href="#">Connect</a></li><li> <a href="#">Skip</a></li></ul>
+                                    </div>
+                                </div>
+                                <div class="spacer10"></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-footer full-width">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="home.html"><img src="img/kh_logo.png" alt="Kritical" class="img-responsive"></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="nav navbar-nav pull-right">
+                            <a class="" href="#">About</a> &nbsp; 
+                            <a class="" href="#">Networks</a> &nbsp; 
+                            <a class="" href="groups.html">Groups</a> &nbsp; 
+                            <a class="" href="blog.html">Blogs</a> &nbsp;
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <p class="text-center">
+                            <a class="" href="#">Careers</a> | 
+                            <a class="" href="#">About</a> | 
+                            <a class="" href="#">Cookie Policy</a> | 
+                            <a class="" href="#">Privacy Policy</a> | 
+                            <a class="" href="#">User Agreement</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 text-center">    
+                        <p class="">Kritical Health Corporation © 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+   <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>-->
+    <script src="js/bootstrap.min.js"></script>
+        <!-- SCRIPTS -->
+    
+    <script src="js/bootbox.js"></script>
+    <script src="js/instafilta.min.js"></script>
+    <script>
+        $(document).on("click", ".con-item-remove", function(e) {
+            var a = this;
+            bootbox.confirm("Are you sure to remove this person?", function(result) {
+                if(result == true){
+                    var conid = $(a).attr('data-class');
+                    $('.'+conid).slideUp(1000);
+                }
+            }); 
+        });
+    </script>
+    <script>
+    // Insta Filter
+    $(function() {
+
+        var $resultMessage = $('#filter-results');
+        $('#ex2f').instaFilta({
+            scope: '#ex2',
+            onFilterComplete: function(matchedItems) {
+
+                var message = matchedItems.length 
+                    ? ""
+                    : "";
+
+                $resultMessage.text(message);
+            }
+        });
+
+    });
+    </script>
+
+    <script src="js/customjs.js"></script>
+    </body></html>

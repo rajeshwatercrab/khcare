@@ -1,0 +1,1900 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=10.0,Transition=1)">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/KH_Symbol.png">
+
+    <title>Nurse Profile | Kritical Health App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="js/plugins/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/wc-animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Page Specific -->
+<link rel='stylesheet prefetch' href='js/plugins/cropper/css/cropper.min.css'>
+
+    
+  </head>
+
+   <body id="kh">
+        <div class="main-header">
+            <section id="header">
+                <nav class="navbar navbar-fixed-top kh-navbar">
+                  <div class="container">
+                    <a class="navbar-brand" href="home.html"><img src="img/KH_Symbol.png" alt="Kritical" class="img-responsive"></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                      
+                    </div>
+                    
+                    <!-- Right-side navigation -->
+                    <ul class="nav-right pull-right list-inline mgtop20 top-khnav">
+                        <li class="dropdown notifications">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">5</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInLeft">
+
+                                <div class="panel-heading">
+                                    You have <strong>5</strong> notifications
+                                </div>
+
+                                <ul class="list-group notification-scroll">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">6 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Robert locked account</span>
+                                                <small class="text-muted">18 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">User Imrich cancelled account</span>
+                                                <small class="text-muted">20 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                 <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">New user registered</span>
+                                                <small class="text-muted">30 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a role="button" tabindex="0">Show all notifications <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown messages">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown"><span class="badge bg-lightred">4</span>
+                            </a>
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInDown" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>4</strong> messages
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object thumb thumb-sm">
+                                                <img src="img/kh_icons/p2.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Imrich sent you a message</span>
+                                                <small class="text-muted">12 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Peter sent you a message</span>
+                                                <small class="text-muted">46 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Bill sent you a message</span>
+                                                <small class="text-muted">1 hour ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media" href="messaging.html">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p4.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Ken sent you a message</span>
+                                                <small class="text-muted">3 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="messaging.html" role="button" tabindex="0">Show all messages <i class="pull-right fa fa-angle-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown users">
+                            <a href="" class="dropdown-toggle ic" data-toggle="dropdown">
+                            <span class="badge bg-lightred">2</span></a>
+
+                            <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInUp" role="menu">
+
+                                <div class="panel-heading">
+                                    You have <strong>2</strong> requests
+                                </div>
+
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <a href="network.html" role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                               <img src="img/kh_icons/p1.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">Arnold sent you a request</span>
+                                                <small class="text-muted">15 minutes ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a role="button" tabindex="0" class="media">
+                                            <span class="pull-left media-object  thumb thumb-sm">
+                                                <img src="img/kh_icons/p3.png" alt="" class="img-circle"/>
+                                            </span>
+                                            <div class="media-body">
+                                                <span class="block">George sent you a request</span>
+                                                <small class="text-muted">5 hours ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="panel-footer">
+                                    <a href="network.html" role="button" tabindex="0">Show all requests <i class="fa fa-angle-right pull-right"></i></a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="dropdown nav-profile">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <img src="img/avatar-nurse-small.jpg" alt="" class="img-circle size-30x30 nav-profile-icon" >
+                            </a>
+                             <ul class="dropdown-menu animated littleFadeInRight profile-top-menu" role="menu">
+                                <li>
+                                    <a href="profile.html">
+                                        <span class="badge bg-greensea pull-right">86%</span>
+                                        <i class="fa fa-user"></i>Abraham
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="jobs.html">
+                                        <i class="fa fa-briefcase"></i>Job Posting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="settings.html">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="home.html">
+                                        <i class="fa fa-lock"></i>Lock
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Right-side navigation end -->
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav nav-left ">
+                        <li class="active menu"><a class="" href="home.html">Home
+                            <span></span></a></li>
+                        <li class="menu"><a href="network.html">Network
+                        <span></span></a></li>
+                        <li class="menu"><a href="jobs.html">Jobs<span></span></a></li> 
+                        <li class="menu"><a href="company.html">Company<span></span></a></li> 
+                        <li class="menu"><a href="groups-my.html">Groups<span></span></a></li> 
+                        <li class="menu"><a href="#">Appointments<span></span></a></li> 
+                        <li class="menu"><a href="blog-author.html">Blogs<span></span></a></li>
+                         <!--<li class="hidden-sm wc-c"><a href="#">Business</a></li>
+                         <li class="hidden-sm "><a href="#">Premium</a></li>-->
+                        </ul>
+                    </div>
+
+                  </div>
+                </nav>
+            </section>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ad-card visible-sm visible-xs" style="min-height:50px">
+                            <div class="kh-top-search">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 boxer1">
+                        <div id="top-card">
+                            <div class="profile-topcard">
+                                <div class="vcard">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                                            <div class="profile-img-containr">
+                                                <img src="img/avatar-nurse.jpg" class="img-responsive profile-img"/>
+                                                
+                                                <div class="prof-img-box">
+                                                    <div class="row">
+                                                        <div class="col-xs-6" style="width:50%">
+                                                            <a href="#" data-toggle="modal" data-target="#imagecrop"> 
+                                                                <!--<img class="up-camera-icon" src="img/profilecamera.png" style="margin:0 auto">-->
+                                                                <span><img class="" src="img/kh_icons/i-pic-change.png"></span>Change
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-xs-6" style="width:50%">
+                                                            <a href="#" class="con-item-remove" data-class="conid-propic"><span><img class="" src="img/kh_icons/i-pic-remove.png"></span> Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="profile-overview">
+                                                 <h2>Radhika Sharma</h2>
+                                                <h4 class="text-aqua"><a href="#" id="e-designation" data-type="text" data-pk="1" data-title="Designation">Designation</a></h4>
+                                                <h5 class="text-red"><a href="#" id="e-speciality" data-type="select" data-pk="1" data-title="Select Speciality">Speciality</a></h5>
+                                                <h5 class="text-info e-speciality-otherh5" style="display:none">
+                                                    <span class="editable-container editable-inline" style="">
+                                                       <div>
+                                                          <div class="editableform-loading" style="display: none;"></div>
+                                                          <form class="form-inline editableform" style="">
+                                                             <div class="control-group form-group">
+                                                                <div>
+                                                                   <div class="editable-input" style="position: relative;"><input type="text" class="form-control input-sm" style="padding-right: 24px;"><span class="editable-clear-x" style="display: none;"></span></div>
+                                                                   <div class="editable-buttons"><button type="submit" class="btn btn-primary btn-sm editable-submit"><i class="glyphicon glyphicon-ok"></i></button><button type="button" class="btn btn-default btn-sm editable-cancel"><i class="glyphicon glyphicon-remove"></i></button></div>
+                                                                </div>
+                                                                <div class="editable-error-block help-block" style="display: none;"></div>
+                                                             </div>
+                                                          </form>
+                                                       </div>
+                                                    </span>
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col-sm-10 col-md-11">
+                                                        <p><img src="img/location-icon.png"/>  <a href="#" id="e-location" data-type="text" data-pk="1" data-title="Location">Bangalore, Karnataka</a></p>
+                                                    </div>
+                                                    <div class="col-sm-2 col-md-11 pad0">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <p class="bottom-line"></p>
+                                                <div class="row det" style="margin-top:5px; margin-bottom:0px">
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Experience</p>
+                                                        <!--<a href="#">12+</a>-->
+                                                        <div class="m-experience">
+                                                            <a href="#" id="e-experience" data-type="text" data-pk="1" data-title="Experience">12</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Followers</p>
+                                                        <a href="#">274</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        <p>Following</p>
+                                                        <a href="#">58</a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-3">
+                                                        
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="profile-card-extras">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-5 col-xs-12">
+                                            
+                                        </div>
+                                        <div class="col-md-7 col-sm-7 col-xs-12">
+                                            <button type="submit" href="activity.html" class="btn btn-follow btn-aqua mgtop2 mgleft0">ACTIVITY</button>
+                                            <button type="submit" class="btn btn-follow mgleft10 mgtop2">CONNECT</button>
+                                            <button type="submit" class="btn btn-red mgleft10 mgtop2">FOLLOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <!-- Modal -->
+                                <div id="imagecrop" class="modal fade con-messagebox" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Image Crop</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          
+                                          Current Pic : <img class="current-pic" src="img/avatar-nurse.jpg" width="50"/>
+                                          <div class="spacer20"></div>
+                                          <div class="img-container"><img/></div>
+                                          <div class="clerarfix"></div>
+                                          <div class="spacer20"></div>
+                                          <input type="file" onchange="previewFile()" class="btn btn-default fl-left cropupbtn"/>
+                                          <button class="salvar btn btn-follow btn-aqua fl-right"><i class="fa fa-crop"></i> CROP</button>
+                                          <div class="clearfix"></div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card" id="about-personalinfo">
+                            <div class="cd-wrap">
+
+                                <h3>Personal Info</h3>
+                                <div class="spacer20"></div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="n-dob n-icons"><span class="font-regular">DOB:</span> 01 January 1983<a data-toggle="collapse" href="#profile-edit-dob" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                        </p>
+                                        <div id="profile-edit-dob" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="row">
+                                                                <div class="col-xs-3 pad-rt-0">
+                                                                    <div class="form-group">
+                                                                        <select class="wc-form-control text-center width100pc pad0">
+                                                                            <option value="1">01</option>
+                                                                            <option value="2">02</option>
+                                                                            <option value="3">03</option>
+                                                                            <option value="4">04</option>
+                                                                            <option value="5">05</option>
+                                                                            <option value="6">06</option>
+                                                                            <option value="7">07</option>
+                                                                            <option value="8">08</option>
+                                                                            <option value="9">09</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                            <option value="13">13</option>
+                                                                            <option value="14">14</option>
+                                                                            <option value="15">15</option>
+                                                                            <option value="16">16</option>
+                                                                            <option value="17">17</option>
+                                                                            <option value="18">18</option>
+                                                                            <option value="19">19</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="21">21</option>
+                                                                            <option value="22">22</option>
+                                                                            <option value="23">23</option>
+                                                                            <option value="24">24</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="26">26</option>
+                                                                            <option value="27">27</option>
+                                                                            <option value="28">28</option>
+                                                                            <option value="29">29</option>
+                                                                            <option value="30">30</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-5 pad-rt-0">
+                                                                    <div class="form-group">
+                                                                        <select class="wc-form-control text-center width100pc pad0">
+                                                                            <option value=""> Month </option>
+                                                                            <option selected value="1">January</option>
+                                                                            <option value="2">February</option>
+                                                                            <option value="3">March</option>
+                                                                            <option value="4">April</option>
+                                                                            <option value="5">May</option>
+                                                                            <option value="6">June</option>
+                                                                            <option value="7">July</option>
+                                                                            <option value="8">August</option>
+                                                                            <option value="9">September</option>
+                                                                            <option value="10">October</option>
+                                                                            <option value="11">November</option>
+                                                                            <option value="12">December</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-4">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="wc-form-control text-center width100pc pad0" id="noconsultation" placeholder="Year" value="1983">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12">
+                                                            <a data-toggle="collapse" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-dob">CANCEL</a>
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-gender n-icons"><span class="font-regular">Gender:</span> Female <a data-toggle="collapse" href="#profile-edit-gender" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a></p>
+                                        <div id="profile-edit-gender" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <select class="wc-form-control text-center width100pc">
+                                                                    <option value=''> Gender </option>
+                                                                    <option value='1'>Male</option>
+                                                                    <option value='2'>Female</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-gender">CANCEL</button>
+                                                             
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-sm-6">
+                                        <p class="n-language n-icons"><span class="font-regular">Languages</span> 
+                                            <a data-toggle="collapse" href="#profile-edit-language" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                            <br/>
+                                            English, Hindi, Punjabi,<br/>
+                                            French 
+                                        </p>
+                                        <div id="profile-edit-language" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:55px" placeholder="Languges">English, Hindi, Punjabi,French</textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-language">CANCEL</button> 
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-hobby n-icons"><span class="font-regular">Hobbies</span>
+                                            <a data-toggle="collapse" href="#profile-edit-hobby" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                            <br/>
+                                            Singing, Painting, Music,<br/>
+                                            Dancing
+                                        </p>
+                                        <div id="profile-edit-hobby" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:55px" placeholder="Hobbies">Singing, Painting, Music,Dancing</textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-hobby">CANCEL</button>
+                                                             <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3>Contact Info</h3>
+                                <div class="spacer20"></div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <p class="n-mail n-icons">rsharma123@gmail.com
+                                                <a data-toggle="collapse" href="#profile-edit-mail" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </p>
+                                                <div id="profile-edit-mail" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body padbt0">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <input type="email" class="wc-form-control width100pc" id="College" placeholder="Mail ID" value="rsharma123@gmail.com">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-mail">CANCEL</button> 
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <p class="n-mob n-icons">+91 9876 5432 10<a data-toggle="collapse" href="#profile-edit-mob" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </p>
+                                                <div id="profile-edit-mob" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body padbt0">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="wc-form-control width100pc" id="College" placeholder="Mobile No." value="+91 9876 5432 10">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-12"><button data-toggle="collapse" type="submit" class="btn btn-cancel pull-right mgleft10 mgtop2" href="#profile-edit-mob">CANCEL</button>
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="n-address n-icons"><a data-toggle="collapse" href="#profile-edit-address" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>No-150, Golden Enclave, 6th Floor, 
+                                            Corporate B Tower, Diamond Dist, Airport 
+                                            Road, Airport Road, Bengaluru, 
+                                            Karnataka 560071 
+                                        </p>
+                                        <div id="profile-edit-address" class="panel-collapse collapse bg-lightblue">
+                                            <div class="panel-body padbt0">
+                                                <form role="form">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="form-group">
+                                                                <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:130px" placeholder="Address">No-150, Golden Enclave, 6th Floor, Corporate B Tower,Diamond Dist, Airport Road, Airport Road, Bengaluru,Karnataka 560071 </textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-sm-12">
+                                                            <button type="submit" data-toggle="collapse" href="#profile-edit-address" class="btn btn-cancel pull-right mgleft10 mgtop2">CANCEL</button> 
+                                                            <button type="submit" class="btn btn-follow pull-right mgleft10 mgtop2">SAVE</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="panel ad-card" id="about-desc">
+                              <div class="panel-heading"><h3 class="panel-title">About </h3></div>
+                              <div class="panel-body">
+                                    <div class="cd-wrap padtop0">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                
+                                                <a data-toggle="collapse" href="#profile-edit-about" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                <div class="spacer20"></div>
+                                                <div id="profile-edit-about" class="panel-collapse collapse bg-lightblue">
+                                                    <div class="panel-body">
+                                                        <form role="form">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>Registration ID</label>
+                                                                        <input type="text" class="wc-form-control pad-lt-5 width100pc " id="noconsultation" placeholder="Registration ID" value="ABC012345">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>Photo ID</label>
+                                                                        <div class="list-wrapper" style="background:white">
+                                                                            <ul class="organisations-field li-scroll-content" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="ba01" checked type="checkbox" value="Driving Licence" name="">
+                                                                                    <label for="ba01" class="checkbox-label">Driving Licence</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="ba02" checked type="checkbox" value="PAN" name="">
+                                                                                    <label for="ba02" class="checkbox-label">PAN</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="ba03"  type="checkbox" value="Aadhar Card" name="">
+                                                                                    <label for="ba03" class="checkbox-label">Aadhar Card</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="ba04"  type="checkbox" value="Passport" name="">
+                                                                                    <label for="ba04" class="checkbox-label">Passport</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="ba05"  type="checkbox" value="Rationcard" name="">
+                                                                                    <label for="ba05" class="checkbox-label">Ration Card</label>
+                                                                                </li>
+                                                                            </ul>    
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label for="pwd">Preferred Workplace</label>
+                                                                        <div class="list-wrapper" style="background:white">
+                                                                            <ul class="organisations-field li-scroll-content" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization01" checked type="checkbox" value="Hospital" name="">
+                                                                                    <label for="Organization01" class="checkbox-label">Hospital</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization02" checked type="checkbox" value="Clinics" name="">
+                                                                                    <label for="Organization02" class="checkbox-label">Clinics</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization03" checked type="checkbox" value="Academic" name="">
+                                                                                    <label for="Organization03" class="checkbox-label">Academic</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization04" checked type="checkbox" value="Company" name="">
+                                                                                    <label for="Organization04" class="checkbox-label">Company</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization05" type="checkbox" value="Factory" name="">
+                                                                                    <label for="Organization05" class="checkbox-label">Factory</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="Organization06" checked type="checkbox" value="Home Healthcare" name="">
+                                                                                    <label for="Organization06" class="checkbox-label">Home Healthcare</label>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>Preferred Country and State</label>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-9">
+                                                                                <!--<input type="text" class="wc-form-control pad-lt-5 width100pc " id="noconsultation" placeholder="Preferred State">-->
+                                                                                <div class="spacer5"></div>
+                                                                                <div class="selectpicker-cover">
+                                                                                <select class="wc-form-control pad-lt-5 width100pc selectpicker" id="prefcountry" >
+                                                                                    <option value="0">Preferred Country</option>
+                                                                                    <option selected value="1">India</option>
+                                                                                    <option value="2">Australia</option>
+                                                                                    <option value="3">USA</option>
+                                                                                    <option value="4">UAE</option>
+                                                                                    <option value="5">South Africa</option>
+                                                                                    <option value="6">Brazil</option>
+                                                                                    <option value="7">Afganistan</option>
+                                                                                </select>
+                                                                                </div>
+                                                                            </div> 
+                                                                            <div class="col-sm-3"></div>
+                                                                            <div class="clearfix"></div>
+
+                                                                            <div class="col-sm-9">
+                                                                                <!--<input type="text" class="wc-form-control pad-lt-5 width100pc " id="noconsultation" placeholder="Preferred State">-->
+                                                                                <div class="spacer5"></div>
+                                                                                <div class="prefstate-div selectpicker-cover">
+                                                                                    <select class="wc-form-control pad-lt-5 width100pc selectpicker" id="prefstate" multiple size="6" style="display:none">
+                                                                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                                                        <option value="Assam">Assam</option>
+                                                                                        <option value="Bihar">Bihar</option>
+                                                                                        <option value="Chandigarh">Chandigarh</option>
+                                                                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                                                                        <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                                                                        <option value="Daman and Diu">Daman and Diu</option>
+                                                                                        <option value="Delhi">Delhi</option>
+                                                                                        <option value="Goa">Goa</option>
+                                                                                        <option value="Gujarat">Gujarat</option>
+                                                                                        <option value="Haryana">Haryana</option>
+                                                                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                                                        <option value="Jharkhand">Jharkhand</option>
+                                                                                        <option selected value="Karnataka">Karnataka</option>
+                                                                                        <option value="Kerala" selected>Kerala</option>
+                                                                                        <option value="Lakshadweep">Lakshadweep</option>
+                                                                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                                                        <option value="Maharashtra">Maharashtra</option>
+                                                                                        <option value="Manipur">Manipur</option>
+                                                                                        <option value="Meghalaya">Meghalaya</option>
+                                                                                        <option value="Mizoram">Mizoram</option>
+                                                                                        <option value="Nagaland">Nagaland</option>
+                                                                                        <option value="Orissa">Orissa</option>
+                                                                                        <option value="Pondicherry">Pondicherry</option>
+                                                                                        <option value="Punjab">Punjab</option>
+                                                                                        <option value="Rajasthan">Rajasthan</option>
+                                                                                        <option value="Sikkim">Sikkim</option>
+                                                                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                                                                        <option value="Tripura">Tripura</option>
+                                                                                        <option value="Uttaranchal">Uttaranchal</option>
+                                                                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                                                        <option value="West Bengal">West Bengal</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div> 
+                                                                            <div class="col-sm-3"></div>
+                                                                            <div class="clearfix"></div>
+
+                                                                            <div class="col-sm-12">
+                                                                                <div class="row blk-profcity">
+                                                                                    <div class="col-sm-9">
+                                                                                        <div class="spacer5"></div>
+                                                                                        <div class="selectpicker-cover">
+                                                                                        <select class="wc-form-control pad-lt-5 width100pc selectpicker" id="prefcity" multiple size="6">
+                                                                                            <option value="">Ahmedabad</option> 
+                                                                                            <option selected>Bengaluru</option>
+                                                                                            <option>Chandigarh</option>
+                                                                                            <option>Chennai</option>
+                                                                                            <option>Delhi</option>
+                                                                                            <option>Gurgaon</option>
+                                                                                            <option>Hyderabad</option>
+                                                                                            <option>Kolkatta</option>
+                                                                                            <option>Mumbai</option>
+                                                                                            <option>Noida</option>
+                                                                                            <option>Pune</option>
+                                                                                            <option>Belgaum</option>
+                                                                                            <option>Bellary</option>
+                                                                                            <option>Bidar</option>
+                                                                                            <option>Dharwad</option>
+                                                                                            <option>Gulbarga</option>
+                                                                                            <option>Hubli</option>
+                                                                                            <option>Kolar</option>
+                                                                                            <option>Mangalore</option>
+                                                                                            <option>Mysoru</option>
+                                                                                            <option>Calicut</option>
+                                                                                            <option>Cochin</option>
+                                                                                            <option>Kannur</option>
+                                                                                            <option selected>Kochi</option>
+                                                                                            <option>Palakkad</option>
+                                                                                            <option>Thrissur</option>
+                                                                                            <option>Trivandrum</option>
+                                                                                            <option>Chennai</option>
+                                                                                            <option>Coimbatore</option>
+                                                                                            <option>Erode</option>
+                                                                                            <option>Hosur</option>
+                                                                                            <option>Madurai</option>
+                                                                                            <option>Ooty</option>
+                                                                                            <option>Salem</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-sm-3">
+                                                                                        <div class="spacer5"></div>
+                                                                                        <!--<button class="btn btn-aqua btn-prefcity"><i class="fa fa-plus"></i></button>-->
+                                                                                    </div>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>Preferred Nature of Job</label>
+                                                                         <div class="list-wrapper" style="background:white">
+                                                                            <ul class="organisations-field li-scroll-content list-inline" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="b01" checked type="checkbox" value="Day Job" name="">
+                                                                                    <label for="b01" class="checkbox-label">Day Job</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="b02" checked type="checkbox" value="Evening Job" name="">
+                                                                                    <label for="b02" class="checkbox-label">Evening Job</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="b03"  type="checkbox" value="others" name="">
+                                                                                    <label for="b03" class="checkbox-label">Night Job</label>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <p class="bottom-line-light"></p>
+                                                                            <ul class="organisations-field li-scroll-content list-inline" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="c03" checked type="checkbox" value="Full Time" name="">
+                                                                                    <label for="c03" class="checkbox-label">Full Time</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="c04" type="checkbox" value="Part Time" name="">
+                                                                                    <label for="c04" class="checkbox-label">Part Time</label>
+                                                                                </li>
+                                                                            </ul>    
+                                                                            
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>Preferred Area of Interest</label>
+                                                                        <div class="list-wrapper" style="background:white">
+                                                                            <ul class="organisations-field li-scroll-content" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="d01" checked type="checkbox" value="Critical Care / ICUs" name="">
+                                                                                    <label for="d01" class="checkbox-label">Critical Care / ICUs</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="d02" type="checkbox" value="OT" name="">
+                                                                                    <label for="d02" class="checkbox-label">OT</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="d03" checked type="checkbox" value="Labor / Obs" name="">
+                                                                                    <label for="d03" class="checkbox-label">Labor / Obs</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="d04" checked type="checkbox" value="Ward" name="">
+                                                                                    <label for="d04" class="checkbox-label">Ward</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="d05"  type="checkbox" value="others" name="">
+                                                                                    <label for="d05" class="checkbox-label">others</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="d06"  type="checkbox" value="Home Healthcare" name="">
+                                                                                    <label for="d06" class="checkbox-label">Other</label>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label for="pwd">Preferred Age Group</label>
+                                                                        <div class="list-wrapper" style="background:white">
+                                                                            <ul class="organisations-field li-scroll-content" id="control_gen_3" style="overflow:hidden">
+                                                                                <li class="checkbox">
+                                                                                    <input id="e01" checked type="checkbox" value="Newborn" name="">
+                                                                                    <label for="e01" class="checkbox-label">Newborn</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="e02" checked type="checkbox" value="Infant" name="">
+                                                                                    <label for="e02" class="checkbox-label">Infant</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="e03" checked type="checkbox" value="Children" name="">
+                                                                                    <label for="e03" class="checkbox-label">Children</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="e04" checked type="checkbox" value="Middle Age" name="">
+                                                                                    <label for="e04" class="checkbox-label">Middle Age</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="e05" checked type="checkbox" value="Elderly" name="">
+                                                                                    <label for="e05" class="checkbox-label">Elderly</label>
+                                                                                </li>
+                                                                                <li class="checkbox">
+                                                                                    <input id="e06"  type="checkbox" value="Home Healthcare" name="">
+                                                                                    <label for="e06" class="checkbox-label">Other</label>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                        <label>About</label>
+                                                                        <textarea class="wc-form-control width100pc" id="noconsultation" style="min-height:130px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="col-sm-6">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                     <button type="submit" data-toggle="collapse" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                     <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                           
+                                                        </form>
+
+                                                    </div>
+                                                </div>
+                                                <div class="spacer10"></div>
+
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                <div class="spacer10"></div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <p><label>Registration ID</label></p>
+                                                        <p>ABC012345</p>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Photo ID</label></p>
+                                                        <p>Driving Licence, PAN, Aadhar Card, Passport</p>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Preferred Workplace</label></p>
+                                                        
+                                                        <ul class="list-inline" style="margin-top:0px">
+                                                            <li><span class="greytag">Hospital</span></li>
+                                                            <li><span class="greytag">Clinics</span></li>
+                                                            <li><span class="greytag">Academic</span></li>
+                                                            <li><span class="greytag">Company</span></li>
+                                                            <li><span class="greytag">Factory</span></li>
+                                                            <li><span class="greytag">Home Healthcare</span></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Preferred Country and State</label> </p>
+                                                        <p>India,  Delhi</p>
+                                                        
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Preferred Nature of Job</label></p>
+                                                        <ul class="list-inline" style="margin-top:0px; margin-bottom:0px">
+                                                            <li><span class="greytag">Day Job</span></li>
+                                                            <li><span class="greytag">Evening Job</span></li>
+                                                        </ul>
+                                                        <p>Full Time</p>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Preferred Area of Interest</label></p>
+                                                        <p>Critical Care / ICUs, OT, Labor / Obs, Ward, others</p>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <p><label>Preferred Age Group</label></p>
+                                                        <ul class="list-inline" style="margin-top:0px">
+                                                            <li><span class="greytag">Newborn</span></li>
+                                                            <li><span class="greytag">Infant</span></li>
+                                                            <li><span class="greytag">Children</span></li>
+                                                            <li><span class="greytag">Middle Age</span></li>
+                                                            <li><span class="greytag">Elderly</span></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>
+                        </div>
+                            
+                        
+
+                        <div class="panel-group aboutpanel" id="accordion">
+                            <div class="panel ad-card" id="about-experiance">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#experiancecontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                           Experience <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="experiancecontent" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-exp" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Organization Name *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Designation *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="Degree" placeholder="Location *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="speciality_autocomplete" placeholder="Choose Speciality *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-6 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc">
+                                                                                        <option value=''> Month </option>
+                                                                                        <option value='1'>Janaury</option>
+                                                                                        <option value='2'>February</option>
+                                                                                        <option value='3'>March</option>
+                                                                                        <option value='4'>April</option>
+                                                                                        <option value='5'>May</option>
+                                                                                        <option value='6'>June</option>
+                                                                                        <option value='7'>July</option>
+                                                                                        <option value='8'>August</option>
+                                                                                        <option value='9'>September</option>
+                                                                                        <option value='10'>October</option>
+                                                                                        <option value='11'>November</option>
+                                                                                        <option value='12'>December</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-6">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-6 pad-rt-0">
+                                                                                <div class="form-group">
+                                                                                    <select class="wc-form-control text-center width100pc">
+                                                                                        <option value=''> Month</option>
+                                                                                        <option value='1'>Janaury</option>
+                                                                                        <option value='2'>February</option>
+                                                                                        <option value='3'>March</option>
+                                                                                        <option value='4'>April</option>
+                                                                                        <option value='5'>May</option>
+                                                                                        <option value='6'>June</option>
+                                                                                        <option value='7'>July</option>
+                                                                                        <option value='8'>August</option>
+                                                                                        <option value='9'>September</option>
+                                                                                        <option value='10'>October</option>
+                                                                                        <option value='11'>November</option>
+                                                                                        <option value='12'>December</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xs-6">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <textarea  class="wc-form-control width100pc height80" placeholder="Description"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Designation<span class="text-colour2">  | </span> <span class="specialittyy text-mainblack font-size12"> Speciality </span>
+                                                    <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Name of the organization </p>
+                                                        <p>May 2003 - Present ( 12 Years 6 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Bangalore</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                       
+                                                    </div>
+                                                </div>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                            <p class="bottom-line-light"></p>
+                                            <div class="spacer20"></div>
+                                            <div class="prof-exp-items">
+                                                <h4 class="text-aqua">Designation<span class="text-colour2">  | </span> <span class="specialittyy text-mainblack font-size12"> Speciality </span>
+                                                     <a data-toggle="collapse" href="#profile-edit-exp" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-xs-8 col-sm-9 col-md-10">
+                                                        <p class="kh-font-bold">Name of the organization </p>
+                                                        <p>April 2000 - May 2013 ( 3 Years 1 Months )</p>
+                                                        <p><img class="mg-rt-5" src="img/location-icon.png"/> Kochin</p>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-3 col-md-2">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <p style="min-height:24px; width:100%">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum, nisi et ornare ullamcorper, urna turpis lacinia dui, eget tempor dolor erat quis odio. Ut sed dolor ultrices, egestas neque at, dictum augue. Nulla sit amet odio justo. Integer suscipit, sapien sed mollis tristique, nibh erat mollis nibh, consequat luctus.</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                      
+                                                    </div>
+                                                </div>
+                                                <div class="spacer20"></div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-education">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#educontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Education <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="educontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-edu" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="degree_autocomplete" placeholder="Degree">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="School/College *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="University">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="spacer5"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">Degree</p>
+                                                    <p>Name of School/College</p>
+                                                    <p>2003 - Present</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                           <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">Degree</p>
+                                                    <p>Name of School/College</p>
+                                                    <p>2001 - 2003</p>
+                                                    <p>Name of University</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    <img class="img-responsive" src="img/kh_icons/wipro1.jpg"/>
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-edu" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel ad-card" id="about-certification">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#certicontent" data-parent="#accordion">
+                                        <h3 class="panel-title">
+                                            Certifications <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div id="certicontent" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="cd-wrap padtop0">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow btn-follow-nomargin pull-right collapsed" aria-expanded="false"> ADD</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-sm-12">
+                                                    <div class="spacer10"></div>
+                                                    <div id="profile-edit-certi" class="panel-collapse collapse bg-lightblue">
+                                                        <div class="panel-body">
+                                                            <form role="form">
+                                                                <div class="row">
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Certification *">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control width100pc" id="College" placeholder="Accrediting Board">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-12">
+                                                                        <p class="kh-font-bold text-colour1 font-size16">Time Period</p>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                        <div class="" style="position:absolute; right:-3px;top:9px"> -</div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="wc-form-control text-center width100pc" id="noconsultation" placeholder="Year">
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-sm-6">
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                         <button type="submit" class="btn btn-cancel pull-right mgleft10">CANCEL</button>
+                                                                         <button type="submit" class="btn btn-follow pull-right mgleft10">SAVE</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                               
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="spacer10"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">CNML – Nurse Manager and Leader</p>
+                                                    <p>Speciality Certificate</p>
+                                                    <p>Active through 2018</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                           <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="spacer20"></div>
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-9 col-md-10">
+                                                    <p class="kh-font-bold">CSC – Cardiac Surgery (Adult)</p>
+                                                    <p>Subspecialty Certifications</p>
+                                                    <p>Active through 2017</p>
+                                                </div>
+                                                <div class="col-xs-4 col-sm-3 col-md-2">
+                                                    
+                                                    
+                                                        <a data-toggle="collapse" href="#profile-edit-certi" class="btn btn-follow-nomargin pull-right collapsed displayonhover pad0" aria-expanded="false"><span class="font-size14 edit-btn"><img src="img/edit-profile.png"></span></a>
+                                                </div>
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-4 boxer2">
+                        <div class="ad-card">
+                            <div class="cd-wrap-right">
+                                <form class="navbar-form navbar-form-rt" role="search" action="#">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            
+                                            <a class="dropdown-toggle btn btn-default pad0 searchbar-filtr" data-toggle="dropdown" href="#"><img src="img/top-search-dropdown.png"/></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                              <li><a href="#doctor">Doctor</a></li>
+                                              <li><a href="#nurse">Nurse</a></li>
+                                              <li><a href="#group">Groups</a></li>
+                                              <li><a href="#company">Company</a></li>
+                                            </ul>
+                                            <input type="hidden" name="search_param" value="all" id="search_param">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="height:25px">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" style="    padding: 0px;"><img src="img/top-search-icon.png"/></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div id="profileview-card">
+                            <div class="cd-wrap-right">
+                                <form method="post" action="#">
+                                    <h3>Profile Strength  
+                                        <div class="ratings pull-right">
+                                        <span class="starRating">
+                                          <input id="rating5" type="radio" name="rating" value="5">
+                                          <label for="rating5">5</label>
+                                          <input id="rating4" type="radio" name="rating" value="4">
+                                          <label for="rating4">4</label>
+                                          <input id="rating3" type="radio" name="rating" value="3" checked>
+                                          <label for="rating3">3</label>
+                                          <input id="rating2" type="radio" name="rating" value="2">
+                                          <label for="rating2">2</label>
+                                          <input id="rating1" type="radio" name="rating" value="1">
+                                          <label for="rating1">1</label>
+                                        </span>
+                                        </div>
+                                    </h3>
+                                </form>
+                                <div class="spacer20"></div>
+                                <p class="bottom-line"></p>
+                                <div class="spacer20"></div>
+                                <h3>Ads You May Be Interested In</h3>
+                                <div class="spacer20"></div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gmail For Work</p>
+                                        <p>Business Class Email Solution. The Gmail you love- for Work.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">Gavin Ng Lung Kit</p>
+                                        <p>Reach new heights</p>
+                                        <p>Starting a business? Want to grow your business? Your business stagnates?</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p class="kh-font-bold">LinkedIn</p>
+                                        <p>Invitation from LinkedIn</p>
+                                        <p>Place ads on LinkedIn. Acquire new customers for your business. Try it now.</p>
+                                        <div class="spacer20"></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right  pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitch">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-card">
+                            <div class="">
+                                <img src="img/ad.png" style="margin:0 auto" class="img-responsive"/>
+
+                            </div>
+                        </div>
+
+                        <div class="notify-card">
+
+                            <div class="cd-wrap-right pd-bt10">
+                                <h3>Notify your network?</h3>
+                                <p>Yes, publish an update to my network about my profile changes</p>
+                                <div class="row">
+                                    <div class=" pull-right">
+                                       <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitchs" class="onoffswitch-checkbox" id="myonoffswitchs" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitchs">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-footer full-width">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="home.html"><img src="img/kh_logo.png" alt="Kritical" class="img-responsive"></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="nav navbar-nav pull-right">
+                            <a class="" href="#">About</a> &nbsp; 
+                            <a class="" href="#">Networks</a> &nbsp; 
+                            <a class="" href="groups.html">Groups</a> &nbsp; 
+                            <a class="" href="blog.html">Blogs</a> &nbsp;
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <p class="text-center">
+                            <a class="" href="#">Careers</a> | 
+                            <a class="" href="#">About</a> | 
+                            <a class="" href="#">Cookie Policy</a> | 
+                            <a class="" href="#">Privacy Policy</a> | 
+                            <a class="" href="#">User Agreement</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 text-center">    
+                        <p class="">Kritical Health Corporation © 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+   <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+        <!-- SCRIPTS -->
+    <script src="js/plugins/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+
+    <script src="js/bootbox.js"></script>
+    <script src="js/instafilta.min.js"></script>
+    <script>
+        $(document).on("click", ".con-item-remove", function(e) {
+            var a = this;
+            bootbox.confirm("Are you sure you want to remove this photo?", function(result) {
+                if(result == true){
+                    /*var conid = $(a).attr('data-class');
+                    $('.'+conid).slideUp(1000);*/
+                    $(".profile-img").attr("src","img/avatar_male.png");
+                    setTimeout(function(){
+                     location.reload();
+                    }, 4000);
+                }
+            }); 
+        });
+    </script>
+
+
+    <script src="js/customjs.js"></script>
+    <!--<script src="js/jquery.easypiechart.min.js"></script>-->
+    <script type="text/javascript" src="js/easypiechart-samp.min.js"></script>
+    <script src='js/plugins/cropper/js/cropper.js'></script>
+    <script>
+    /*var reloder = settile;*/
+        var recorte = $('.img-container > img');
+        recorte.cropper({
+            aspectRatio: 1 / 1,
+            movable: false,
+            zoomable: false,
+            rotatable: false,
+            scalable: true
+        });
+        function previewFile() {
+            $('.current-pic').hide();
+            var file = document.querySelector('input[type=file]').files[0];
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                $('img').show();
+                recorte.cropper('replace', reader.result);
+            };
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                recorte.cropper('replace', '');
+            }
+        }
+        $('.salvar').click(function () {
+            
+            var imgcrop = recorte.cropper('getCroppedCanvas').toDataURL();
+            $(".current-pic").attr("src",imgcrop);
+            $(".profile-img").attr("src",imgcrop);
+            $('.close').click();
+            $('.img-container').hide();
+            setTimeout(function(){
+             location.reload();
+            }, 4000);
+            
+        });
+
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#about-education").on("hide.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-education").on("show.bs.collapse", function(){
+        $("#about-education .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-education .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-certification").on("hide.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicons-chevron-up');
+      });
+      $("#about-certification").on("show.bs.collapse", function(){
+        $("#about-certification .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-certification .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-honor").on("hide.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-honor").on("show.bs.collapse", function(){
+        $("#about-honor .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-honor .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-experiance").on("hide.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-experiance").on("show.bs.collapse", function(){
+        $("#about-experiance .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-experiance .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+      $("#about-skill").on("hide.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-down');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-up');
+      });
+      $("#about-skill").on("show.bs.collapse", function(){
+        $("#about-skill .panel-title .glyphicon").addClass('glyphicon-chevron-up');
+        $("#about-skill .panel-title .glyphicon").removeClass('glyphicon-chevron-down');
+      });
+    });
+    </script>
+
+    <script type="text/javascript" src="js/plugins/autocomplete/jquery.autocomplete.js"></script>
+    <script>
+        var degreelist = [
+           { value: 'M.B.B.S', data: 'MBBS' },
+           { value: 'B.D.S (Bachelor of Dental Surgery)', data: 'BDS' },
+           { value: 'B.Pharma (Bachelor of Pharmacy)', data: 'BPharma' },
+           { value: 'B.Sc Nursing', data: 'MBBS' },
+           { value: 'B.P.T (Physiotherapy)', data: 'MBBS' },
+           { value: 'B.O.T (Occupational Therapy)', data: 'MBBS' },
+           { value: 'B.H.M.S(Homeopathy Medicine)', data: 'MBBS' },
+           { value: 'B.U.M.S(Unani Medicine)', data: 'MBBS' },
+           { value: 'Optometry', data: 'MBBS' },
+           { value: 'Ophthalmic Assistant Medical course', data: 'MBBS' },
+           { value: 'Histopathalogical Lab Technology', data: 'MBBS' },
+           { value: 'B.A.M.S(Ayurvedic, Siddha Medicine)', data: 'MBBS' },
+           { value: 'Radiological Assistant', data: 'MBBS' },
+           { value: ' Nuclear Medicine Technology', data: 'ZZ' }
+        ];
+
+        var specialitylist = [
+           { value: 'Diagnostics', data: 'Diagnostics' },
+           { value: 'Anesthesiology', data: 'Anesthesiology' },
+           { value: 'Cardiology', data: 'Cardiology' },
+           { value: 'Cosmetology', data: 'Cosmetology' },
+           { value: 'Dental', data: 'Dental' },
+           { value: 'Dermatology', data: 'Dermatology' },
+           { value: 'Endocrinology', data: 'Endocrinology' },
+           { value: 'ENT', data: 'ENT' },
+           { value: 'Gastroenterology', data: 'Gastroenterology' },
+           { value: 'Neurology', data: 'Neurology' },
+           { value: 'Ophthalmology', data: 'Ophthalmology' },
+           { value: 'Orthopaedics', data: 'Orthopaedics' },
+           { value: 'Pathology', data: 'Pathology' },
+           { value: 'Paediatrics', data: 'Paediatrics' },
+           { value: 'Psychiatry', data: 'Psychiatry' },
+           { value: 'Radiology', data: 'Radiology' },
+           { value: 'Urology', data: 'Urology' },
+           { value: 'Histopathology', data: 'Histopathology' }
+        ];
+
+        $('#degree_autocomplete').autocomplete({
+            lookup: degreelist,
+            onSelect: function (suggestion) {
+                /*alert('You selected: ' + suggestion.value + ', ' + suggestion.data);*/
+            }
+        });
+
+        $('#speciality_autocomplete').autocomplete({
+            lookup: specialitylist,
+            onSelect: function (suggestion) {
+                /*alert('You selected: ' + suggestion.value + ', ' + suggestion.data);*/
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                $.fn.editable.defaults.mode = 'inline'; 
+                $.fn.editable.defaults.ajaxOptions = {type: "post"}    
+                
+                //make Designation editable
+                $('#e-designation').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-designation').html(val);}
+                    }
+                });
+                
+                //make Location editable
+                $('#e-location').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-location').html(val);}
+                    }
+                });
+
+                $('#e-experience').editable({
+                     url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-experience').html(val);}
+                    }
+                });
+
+                $('#e-speciality').editable({
+                    value: 1,
+                    pk: 1,    
+                    source: [
+                          {value: 1, text: 'Speciality 1'},
+                          {value: 2, text: 'Speciality 2'},
+                          {value: 3, text: 'Speciality 3'},
+                          {value: 4, text: 'Other'}
+                       ],
+                    url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val == '4'){ $('.e-speciality-otherh5').show();}
+                    }
+                });
+                $("#e-speciality-other").editable({ 
+                    value: '',
+                    pk: 1, 
+                    url: 'http://watercrab.in/test/Kritical_Health/sample-php.php',
+                    success: function(response,val) {
+                        if(val){ $('#e-speciality').html(val); $('.e-speciality-otherh5').hide();}
+                    }
+                });
+
+                $('.tag-profcity').on('click','.tag',function(){
+                        if(confirm("Really delete this tag?")) $(this).remove();  
+                });
+
+                $('.blk-profcity').on('click','.btn-prefcity',function(){
+                       $(".tag-profcity").append('<span class="tag">City</span>');   return false;
+                });
+                $("#prefcountry").change(function(){
+                    var s = $("#prefcountry").val();
+                    var st = $("#prefstate").val();
+                    if(s>0){
+                        $('.prefstate-div').show(1000);
+                        if(st){$('.blk-profcity').show(1000);}
+                    }else{
+                         $('.prefstate-div').hide();
+                         $(".blk-profcity").hide();
+                    }
+                });
+
+                $("#prefstate").change(function(){
+                        $('.blk-profcity').show(1000);
+                });
+            });
+    </script>
+
+    </body></html>

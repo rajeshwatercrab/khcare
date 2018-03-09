@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {font-family:"Roboto Light";src:url("../fonts/roboto/Roboto-Light.eot?") format("eot"),url("../fonts/roboto/Roboto-Light.woff") format("woff"),url("../fonts/roboto/Roboto-Light.ttf") format("truetype"),url("../fonts/roboto/Roboto-Light.svg#Roboto-Light") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Roboto Bold";src:url("../fonts/roboto/Roboto-Bold.eot?") format("eot"),url("../fonts/roboto/Roboto-Bold.woff") format("woff"),url("../fonts/roboto/Roboto-Bold.ttf") format("truetype"),url("../fonts/roboto/Roboto-Bold.svg#Roboto-Bold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Roboto Regular";src:url("../fonts/roboto/Roboto-Regular.eot?") format("eot"),url("../fonts/roboto/Roboto-Regular.woff") format("woff"),url("../fonts/roboto/Roboto-Regular.ttf") format("truetype"),url("../fonts/roboto/Roboto-Regular.svg#Roboto-Regular") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Roboto Medium";src:url("../fonts/roboto/Roboto-Medium.eot?") format("eot"),url("../fonts/roboto/Roboto-Medium.woff") format("woff"),url("../fonts/roboto/Roboto-Medium.ttf") format("truetype"),url("../fonts/roboto/Roboto-Medium.svg#Roboto-Meduim") format("svg");font-weight:normal;font-style:normal;}
+
+body{
+  font-weight:normal;
+  /*font-family: 'Roboto Light';*/
+  font-family: 'Roboto Regular';
+  -webkit-font-smoothing: antialiased;
+  color:#383d46;
+}
+*:focus {
+    outline: none !important;
+}
+a:hover{ text-decoration: none;}
+.kh-font-bold{
+  font-family:'Roboto Bold'!important;
+}
+.font-regular{
+  font-family: 'Roboto Regular';
+}
+.font-medium{
+  font-family: 'Roboto Medium';
+}
+.fl-right{
+  float:right;
+}
+.fl-left{
+  float:left;
+}
+.spacer10{height:10px;width:100%;}
+.spacer20{height:20px;width:100%;}
+.spacer70{height:70px;width:100%;}
+.bottom-line-light{
+  border-bottom:1px solid #ebf1f5;margin:0px;
+}
+.text-aqua {
+    color: #18b2c3!important;
+}
+.text-navy {
+    color: #4e5e78!important;
+}
+.mg-top0{margin-top:0px;}
+.btn-aqua, .btn-red{
+  border: none;
+  font-size: 14px;
+  padding: 6px 25px;
+  border-radius: 25px;
+  color: white;
+  font-family: Roboto Medium;
+  margin-top: 7px;
+  line-height: 12px;
+  margin-left: 15px;
+}
+.btn-aqua{
+  background:#20cad5;
+}
+.btn-aqua:hover, .btn-aqua:active, .btn-aqua:focus{
+  background:#17b7c1; color:#FFFFFF;
+}
+.btn-red{    background: #ed4069;}
+.btn-red:hover, .btn-red:active, .btn-red:focus {
+    color: white;
+    background: #d9325d;
+}
+
+/* Signup - Header Block */
+
+.topbar{ background:#FFF; min-height:65px; margin-bottom: 0px; border-bottom: 1px solid #e6f5f9;}
+.topbar.navbar-inverse .navbar-toggle .icon-bar{background-color:#3D3D4F;}
+.topbar.navbar-inverse .navbar-toggle{border-color:transparent;}
+.topbar.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{    background-color: #f6335f;}
+.topbar.navbar-inverse .navbar-toggle:focus .icon-bar, .topbar.navbar-inverse .navbar-toggle:hover .icon-bar{background-color:#FFFFFF;}
+.topbar .navbar-collapse .navbar-nav{    margin: 12px 0px;}
+#header .navbar-inverse .navbar-nav.navbar-right>li>a { color: #221f1f;text-transform: uppercase; font-family: 'Roboto Regular';    padding: 10px 0px;
+    margin: 0 15px;}
+#header .navbar-nav li a:focus, #header .navbar-nav li a:hover { background: none; color: #20cad5;}
+#header .navbar-inverse .navbar-nav.navbar-right>li.active>a {background:none;color: #ED4169!important;}
+.kh_header{    width: 100%; position: relative; height: 100%; z-index: 999;}
+.middle_part{    width: 100%; display: table;height: 100%}
+.v_centre{    display: table-cell; vertical-align: middle;  margin: 0 auto; padding-top: 2%;}
+
+.topbar .navbar-collapse .navbar-nav.left-navbar{margin-left:70px}
+a.btn-lndgtop{
+  border: 1px solid #221f1f; font-size: 14px;
+  padding: 2px 24px!important; border-radius: 25px;
+  color: #221f1f!important; font-family: Roboto Medium;
+  margin-top: 7px; line-height: 12px;
+  margin-left: 10px; margin-bottom: 6px;}
+a.btn-lndgtop.b-signup:hover{ border: 1px solid #17b7c1;  color: #FFFFFF!important; background: #17b7c1!important;}
+a.btn-lndgtop.b-login:hover{ border: 1px solid #d9325d;  color: #FFFFFF!important; background: #d9325d!important;}
+.viewing-page-1 .left-navbar{display:none;-webkit-transition-duration: 5s; /* Safari */
+    transition-duration: 5s;}
+.lnd-box2, .lnd-box4{width:270px;}
+.lnd-box3{width:300px;}
+.ld-log{width:200px;}
+.lnd-box2{}
+.movedown_wrapper{    width: 100%; position: absolute; bottom: 20px; z-index:1000;}
+.movedown_control img{cursor:pointer;}
+.movedown_wrapper p{font-size:14px;text-transform: uppercase;font-family: Roboto Medium}
+.landing-btn{margin-left:15px; margin-right:15px;}
+.lnd-box1 h1, .lnd-box2 h2, .lnd-box3 h2, .lnd-box4 h2{    font-size: 25px;    margin: 35px 0;}
+.lnd-box2 p,.lnd-box3 p, .lnd-box4 p{margin-bottom: 20px}
+#feature-toggle{margin-top:15px;}
+
+/* Start of menu slide */
+
+.menu-slide {
+    background: #17b7c1;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.menuclose{
+        background: url(../img/head-foot-sprite.png) -106px 0 no-repeat;
+    display: block;
+    height: 29px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+    width: 27px;
+    float: right;
+    cursor: pointer;
+        z-index: 2;
+}
+.menu-slide ul.menu{
+        top: 50%;
+            width: 100%;
+    float: left;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+}
+.mainmenu-cont {    position: absolute;  top: 30%;  width: 100%;-webkit-transform: translateY(-15%);
+    -moz-transform: translateY(-15%); transform: translateY(-15%);}
+.mainmenu-cont ul{list-style-type: none; padding-left: 20px;    text-align: center;}
+.mainmenu-cont ul a{color:#FFFFFF; text-transform: uppercase;    font-size: 25px;}
+.mainmenu-cont h4{padding-left: 20px;font-family: 'Roboto Bold'; color: #ed4069;text-transform: uppercase;    margin-top: 25px;    text-align: center;
+    font-size: 30px;margin-bottom:20px;}
+
+/* End of menu slide */
+
+/* Management */
+
+
+.mngt-stwo h1{ margin-top: 30px;  margin-left: 10px;font-size: 30px; color:#eb4069; text-transform: uppercase; font-family: 'Roboto Light'}
